@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_MyTrainer_FILE /home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer)
+set(__QT_DEPLOY_TARGET_MyTrainer_TYPE EXECUTABLE)
