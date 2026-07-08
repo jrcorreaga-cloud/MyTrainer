@@ -1,0 +1,5 @@
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/MyTrainer.dir
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/edit_cache.dir
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/rebuild_cache.dir
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/MyTrainer_autogen_timestamp_deps.dir
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/MyTrainer_autogen.dir

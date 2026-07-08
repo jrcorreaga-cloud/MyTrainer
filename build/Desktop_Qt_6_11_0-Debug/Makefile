@@ -203,6 +203,30 @@ src/business_logic/models/User.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.s
 .PHONY : src/business_logic/models/User.cpp.s
 
+src/business_logic/services/AdminService.o: src/business_logic/services/AdminService.cpp.o
+.PHONY : src/business_logic/services/AdminService.o
+
+# target to build an object file
+src/business_logic/services/AdminService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o
+.PHONY : src/business_logic/services/AdminService.cpp.o
+
+src/business_logic/services/AdminService.i: src/business_logic/services/AdminService.cpp.i
+.PHONY : src/business_logic/services/AdminService.i
+
+# target to preprocess a source file
+src/business_logic/services/AdminService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.i
+.PHONY : src/business_logic/services/AdminService.cpp.i
+
+src/business_logic/services/AdminService.s: src/business_logic/services/AdminService.cpp.s
+.PHONY : src/business_logic/services/AdminService.s
+
+# target to generate assembly for a file
+src/business_logic/services/AdminService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.s
+.PHONY : src/business_logic/services/AdminService.cpp.s
+
 src/business_logic/services/AuthService.o: src/business_logic/services/AuthService.cpp.o
 .PHONY : src/business_logic/services/AuthService.o
 
@@ -323,6 +347,54 @@ src/presentation/views/LoginView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.s
 .PHONY : src/presentation/views/LoginView.cpp.s
 
+src/presentation/views/RegisterStudentView.o: src/presentation/views/RegisterStudentView.cpp.o
+.PHONY : src/presentation/views/RegisterStudentView.o
+
+# target to build an object file
+src/presentation/views/RegisterStudentView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o
+.PHONY : src/presentation/views/RegisterStudentView.cpp.o
+
+src/presentation/views/RegisterStudentView.i: src/presentation/views/RegisterStudentView.cpp.i
+.PHONY : src/presentation/views/RegisterStudentView.i
+
+# target to preprocess a source file
+src/presentation/views/RegisterStudentView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.i
+.PHONY : src/presentation/views/RegisterStudentView.cpp.i
+
+src/presentation/views/RegisterStudentView.s: src/presentation/views/RegisterStudentView.cpp.s
+.PHONY : src/presentation/views/RegisterStudentView.s
+
+# target to generate assembly for a file
+src/presentation/views/RegisterStudentView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.s
+.PHONY : src/presentation/views/RegisterStudentView.cpp.s
+
+src/presentation/views/RegisterTrainerView.o: src/presentation/views/RegisterTrainerView.cpp.o
+.PHONY : src/presentation/views/RegisterTrainerView.o
+
+# target to build an object file
+src/presentation/views/RegisterTrainerView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o
+.PHONY : src/presentation/views/RegisterTrainerView.cpp.o
+
+src/presentation/views/RegisterTrainerView.i: src/presentation/views/RegisterTrainerView.cpp.i
+.PHONY : src/presentation/views/RegisterTrainerView.i
+
+# target to preprocess a source file
+src/presentation/views/RegisterTrainerView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.i
+.PHONY : src/presentation/views/RegisterTrainerView.cpp.i
+
+src/presentation/views/RegisterTrainerView.s: src/presentation/views/RegisterTrainerView.cpp.s
+.PHONY : src/presentation/views/RegisterTrainerView.s
+
+# target to generate assembly for a file
+src/presentation/views/RegisterTrainerView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.s
+.PHONY : src/presentation/views/RegisterTrainerView.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -340,6 +412,9 @@ help:
 	@echo "... src/business_logic/models/User.o"
 	@echo "... src/business_logic/models/User.i"
 	@echo "... src/business_logic/models/User.s"
+	@echo "... src/business_logic/services/AdminService.o"
+	@echo "... src/business_logic/services/AdminService.i"
+	@echo "... src/business_logic/services/AdminService.s"
 	@echo "... src/business_logic/services/AuthService.o"
 	@echo "... src/business_logic/services/AuthService.i"
 	@echo "... src/business_logic/services/AuthService.s"
@@ -355,6 +430,12 @@ help:
 	@echo "... src/presentation/views/LoginView.o"
 	@echo "... src/presentation/views/LoginView.i"
 	@echo "... src/presentation/views/LoginView.s"
+	@echo "... src/presentation/views/RegisterStudentView.o"
+	@echo "... src/presentation/views/RegisterStudentView.i"
+	@echo "... src/presentation/views/RegisterStudentView.s"
+	@echo "... src/presentation/views/RegisterTrainerView.o"
+	@echo "... src/presentation/views/RegisterTrainerView.i"
+	@echo "... src/presentation/views/RegisterTrainerView.s"
 .PHONY : help
 
 

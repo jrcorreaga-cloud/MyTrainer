@@ -274,3 +274,89 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/Qt6Config.cmake:185 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CMakeScratch/TryCompile-yPemyo"
+      binary: "/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CMakeScratch/TryCompile-yPemyo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6;/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CMakeScratch/TryCompile-yPemyo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_59fb7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_59fb7.dir/build.make CMakeFiles/cmTC_59fb7.dir/build
+        gmake[1]: se entra en el directorio '/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CMakeScratch/TryCompile-yPemyo'
+        Building CXX object CMakeFiles/cmTC_59fb7.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_59fb7.dir/src.cxx.o -c /home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CMakeScratch/TryCompile-yPemyo/src.cxx
+        Linking CXX executable cmTC_59fb7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59fb7.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_59fb7.dir/src.cxx.o -o cmTC_59fb7 
+        gmake[1]: se sale del directorio '/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CMakeScratch/TryCompile-yPemyo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CMakeScratch/TryCompile-uIo2R0"
+      binary: "/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CMakeScratch/TryCompile-uIo2R0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6;/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CMakeScratch/TryCompile-uIo2R0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bd0a0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bd0a0.dir/build.make CMakeFiles/cmTC_bd0a0.dir/build
+        gmake[1]: se entra en el directorio '/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CMakeScratch/TryCompile-uIo2R0'
+        Building CXX object CMakeFiles/cmTC_bd0a0.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_bd0a0.dir/src.cxx.o -c /home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CMakeScratch/TryCompile-uIo2R0/src.cxx
+        Linking CXX executable cmTC_bd0a0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd0a0.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_bd0a0.dir/src.cxx.o -o cmTC_bd0a0 
+        gmake[1]: se sale del directorio '/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CMakeScratch/TryCompile-uIo2R0'
+        
+      exitCode: 0
+...

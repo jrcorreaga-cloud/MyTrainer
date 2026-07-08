@@ -11,11 +11,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "MyTrainer_autogen/timestamp" "custom" "MyTrainer_autogen/deps"
   "/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/mocs_compilation.cpp" "CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.cpp" "CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o.d"
+  "/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.cpp" "CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.cpp" "CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/main.cpp" "CMakeFiles/MyTrainer.dir/src/main.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/main.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.cpp" "CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/presentation/views/DashboardView.cpp" "CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/presentation/views/LoginView.cpp" "CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o.d"
+  "/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.cpp" "CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o.d"
+  "/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.cpp" "CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

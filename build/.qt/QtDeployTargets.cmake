@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_MyTrainer_FILE /home/jordan13/Escritorio/MyTrainer/build/MyTrainer)
+set(__QT_DEPLOY_TARGET_MyTrainer_TYPE EXECUTABLE)

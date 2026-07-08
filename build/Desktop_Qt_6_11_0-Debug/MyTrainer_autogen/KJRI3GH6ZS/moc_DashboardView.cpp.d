@@ -161,9 +161,12 @@
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qtransform.h \
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qwindowdefs.h \
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QLabel \
+  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QPushButton \
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QWidget \
+  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractbutton.h \
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qframe.h \
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlabel.h \
+  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qpushbutton.h \
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtwidgetsexports.h \

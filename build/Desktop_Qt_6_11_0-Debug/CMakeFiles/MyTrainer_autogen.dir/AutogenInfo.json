@@ -611,9 +611,21 @@
 			null
 		],
 		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.h",
+			"MU",
+			"JEFYWV5TFH/moc_AdminService.cpp",
+			null
+		],
+		[
 			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.h",
 			"MU",
 			"JEFYWV5TFH/moc_AuthService.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAdminService.h",
+			"MU",
+			"JEFYWV5TFH/moc_IAdminService.cpp",
 			null
 		],
 		[
@@ -644,6 +656,18 @@
 			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/LoginView.h",
 			"MU",
 			"KJRI3GH6ZS/moc_LoginView.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.h",
+			"MU",
+			"KJRI3GH6ZS/moc_RegisterStudentView.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.h",
+			"MU",
+			"KJRI3GH6ZS/moc_RegisterTrainerView.cpp",
 			null
 		]
 	],
@@ -712,6 +736,11 @@
 			null
 		],
 		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.cpp",
 			"MU",
 			null
@@ -729,6 +758,16 @@
 		],
 		[
 			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/LoginView.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.cpp",
 			"MU",
 			null
 		]

@@ -397,6 +397,9 @@ CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o: \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qiodevice.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qtextdocument.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qurl.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QPushButton \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qpushbutton.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/KJRI3GH6ZS/../../../../src/presentation/views/../../business_logic/models/User.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/QString \
  /home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/KJRI3GH6ZS/../../../../src/presentation/views/../../business_logic/models/Role.h \
@@ -411,7 +414,9 @@ CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o: \
  /home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/KJRI3GH6ZS/../../../../src/presentation/views/LoginView.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QLineEdit \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlineedit.h \
- /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QPushButton \
- /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qpushbutton.h \
- /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractbutton.h \
- /home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/KJRI3GH6ZS/../../../../src/presentation/views/../../business_logic/services/IAuthService.h
+ /home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/KJRI3GH6ZS/../../../../src/presentation/views/../../business_logic/services/IAuthService.h \
+ /home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/KJRI3GH6ZS/moc_RegisterStudentView.cpp \
+ /home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/KJRI3GH6ZS/../../../../src/presentation/views/RegisterStudentView.h \
+ /home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/KJRI3GH6ZS/../../../../src/presentation/views/../../business_logic/services/IAdminService.h \
+ /home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/KJRI3GH6ZS/moc_RegisterTrainerView.cpp \
+ /home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/KJRI3GH6ZS/../../../../src/presentation/views/RegisterTrainerView.h

@@ -899,8 +899,11 @@ MyTrainer_autogen/timestamp: /home/jordan13/Escritorio/MyTrainer/CMakeLists.txt 
   /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Role.h \
   /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.cpp \
   /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.h \
+  /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.cpp \
+  /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.h \
   /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.cpp \
   /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.h \
+  /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAdminService.h \
   /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAuthService.h \
   /home/jordan13/Escritorio/MyTrainer/src/main.cpp \
   /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IUserRepository.h \
@@ -910,6 +913,10 @@ MyTrainer_autogen/timestamp: /home/jordan13/Escritorio/MyTrainer/CMakeLists.txt 
   /home/jordan13/Escritorio/MyTrainer/src/presentation/views/DashboardView.h \
   /home/jordan13/Escritorio/MyTrainer/src/presentation/views/LoginView.cpp \
   /home/jordan13/Escritorio/MyTrainer/src/presentation/views/LoginView.h \
+  /home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.cpp \
+  /home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.h \
+  /home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.cpp \
+  /home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.h \
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/QString \
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/q17memory.h \
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/q20bit.h \
@@ -1779,6 +1786,12 @@ MyTrainer_autogen/timestamp: /home/jordan13/Escritorio/MyTrainer/CMakeLists.txt 
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 
+/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.cpp:
+
+/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.h:
+
+/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.cpp:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
@@ -2233,6 +2246,8 @@ MyTrainer_autogen/timestamp: /home/jordan13/Escritorio/MyTrainer/CMakeLists.txt 
 
 /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QLineEdit:
 
+/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.cpp:
+
 /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qwindowdefs.h:
 
 /home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake:
@@ -2406,6 +2421,8 @@ MyTrainer_autogen/timestamp: /home/jordan13/Escritorio/MyTrainer/CMakeLists.txt 
 /home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:
 
 /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qtdeprecationmarkers.h:
+
+/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.h:
 
 /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qtmetamacros.h:
 
@@ -2808,6 +2825,8 @@ MyTrainer_autogen/moc_predefs.h:
 /home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
 
 /home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Gui/Qt6DrmEglServerBufferPluginTargetsPrecheck.cmake:
+
+/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.h:
 
 /home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake:
 
@@ -3330,6 +3349,8 @@ MyTrainer_autogen/moc_predefs.h:
 /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/q20functional.h:
 
 /home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake:
+
+/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAdminService.h:
 
 /home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake:
 
