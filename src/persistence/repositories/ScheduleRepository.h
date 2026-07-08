@@ -1,0 +1,11 @@
+#pragma once
+#include "IScheduleRepository.h"
+
+class ScheduleRepository : public IScheduleRepository {
+public:
+    ScheduleRepository();
+    std::vector<ScheduleSlot> getAllSlots() override;
+
+private:
+    std::vector<ScheduleSlot> m_mockSlots;
+};

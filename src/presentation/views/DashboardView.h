@@ -14,10 +14,14 @@ public:
 signals:
     void registerTrainerRequested();
     void registerStudentRequested();
+    void createPlanRequested();
+    void viewScheduleRequested();
 
 private slots:
     void onRegisterTrainerClicked();
     void onRegisterStudentClicked();
+    void onCreatePlanClicked();
+    void onViewScheduleClicked();
 
 private:
     void setupUi(const User& user);
