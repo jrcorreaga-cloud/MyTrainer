@@ -16,12 +16,16 @@ signals:
     void registerStudentRequested();
     void createPlanRequested();
     void viewScheduleRequested();
+    void bookClassRequested();
+    void logoutRequested();
 
 private slots:
     void onRegisterTrainerClicked();
     void onRegisterStudentClicked();
     void onCreatePlanClicked();
     void onViewScheduleClicked();
+    void onBookClassClicked();
+    void onLogoutClicked();
 
 private:
     void setupUi(const User& user);

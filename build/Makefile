@@ -179,6 +179,54 @@ MyTrainer_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.s
 .PHONY : MyTrainer_autogen/mocs_compilation.cpp.s
 
+src/business_logic/models/Plan.o: src/business_logic/models/Plan.cpp.o
+.PHONY : src/business_logic/models/Plan.o
+
+# target to build an object file
+src/business_logic/models/Plan.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o
+.PHONY : src/business_logic/models/Plan.cpp.o
+
+src/business_logic/models/Plan.i: src/business_logic/models/Plan.cpp.i
+.PHONY : src/business_logic/models/Plan.i
+
+# target to preprocess a source file
+src/business_logic/models/Plan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.i
+.PHONY : src/business_logic/models/Plan.cpp.i
+
+src/business_logic/models/Plan.s: src/business_logic/models/Plan.cpp.s
+.PHONY : src/business_logic/models/Plan.s
+
+# target to generate assembly for a file
+src/business_logic/models/Plan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.s
+.PHONY : src/business_logic/models/Plan.cpp.s
+
+src/business_logic/models/ScheduleSlot.o: src/business_logic/models/ScheduleSlot.cpp.o
+.PHONY : src/business_logic/models/ScheduleSlot.o
+
+# target to build an object file
+src/business_logic/models/ScheduleSlot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o
+.PHONY : src/business_logic/models/ScheduleSlot.cpp.o
+
+src/business_logic/models/ScheduleSlot.i: src/business_logic/models/ScheduleSlot.cpp.i
+.PHONY : src/business_logic/models/ScheduleSlot.i
+
+# target to preprocess a source file
+src/business_logic/models/ScheduleSlot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.i
+.PHONY : src/business_logic/models/ScheduleSlot.cpp.i
+
+src/business_logic/models/ScheduleSlot.s: src/business_logic/models/ScheduleSlot.cpp.s
+.PHONY : src/business_logic/models/ScheduleSlot.s
+
+# target to generate assembly for a file
+src/business_logic/models/ScheduleSlot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.s
+.PHONY : src/business_logic/models/ScheduleSlot.cpp.s
+
 src/business_logic/models/User.o: src/business_logic/models/User.cpp.o
 .PHONY : src/business_logic/models/User.o
 
@@ -251,6 +299,54 @@ src/business_logic/services/AuthService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.s
 .PHONY : src/business_logic/services/AuthService.cpp.s
 
+src/business_logic/services/PlanService.o: src/business_logic/services/PlanService.cpp.o
+.PHONY : src/business_logic/services/PlanService.o
+
+# target to build an object file
+src/business_logic/services/PlanService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o
+.PHONY : src/business_logic/services/PlanService.cpp.o
+
+src/business_logic/services/PlanService.i: src/business_logic/services/PlanService.cpp.i
+.PHONY : src/business_logic/services/PlanService.i
+
+# target to preprocess a source file
+src/business_logic/services/PlanService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.i
+.PHONY : src/business_logic/services/PlanService.cpp.i
+
+src/business_logic/services/PlanService.s: src/business_logic/services/PlanService.cpp.s
+.PHONY : src/business_logic/services/PlanService.s
+
+# target to generate assembly for a file
+src/business_logic/services/PlanService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.s
+.PHONY : src/business_logic/services/PlanService.cpp.s
+
+src/business_logic/services/ScheduleService.o: src/business_logic/services/ScheduleService.cpp.o
+.PHONY : src/business_logic/services/ScheduleService.o
+
+# target to build an object file
+src/business_logic/services/ScheduleService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o
+.PHONY : src/business_logic/services/ScheduleService.cpp.o
+
+src/business_logic/services/ScheduleService.i: src/business_logic/services/ScheduleService.cpp.i
+.PHONY : src/business_logic/services/ScheduleService.i
+
+# target to preprocess a source file
+src/business_logic/services/ScheduleService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.i
+.PHONY : src/business_logic/services/ScheduleService.cpp.i
+
+src/business_logic/services/ScheduleService.s: src/business_logic/services/ScheduleService.cpp.s
+.PHONY : src/business_logic/services/ScheduleService.s
+
+# target to generate assembly for a file
+src/business_logic/services/ScheduleService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.s
+.PHONY : src/business_logic/services/ScheduleService.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -275,6 +371,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/persistence/repositories/PlanRepository.o: src/persistence/repositories/PlanRepository.cpp.o
+.PHONY : src/persistence/repositories/PlanRepository.o
+
+# target to build an object file
+src/persistence/repositories/PlanRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o
+.PHONY : src/persistence/repositories/PlanRepository.cpp.o
+
+src/persistence/repositories/PlanRepository.i: src/persistence/repositories/PlanRepository.cpp.i
+.PHONY : src/persistence/repositories/PlanRepository.i
+
+# target to preprocess a source file
+src/persistence/repositories/PlanRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.i
+.PHONY : src/persistence/repositories/PlanRepository.cpp.i
+
+src/persistence/repositories/PlanRepository.s: src/persistence/repositories/PlanRepository.cpp.s
+.PHONY : src/persistence/repositories/PlanRepository.s
+
+# target to generate assembly for a file
+src/persistence/repositories/PlanRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.s
+.PHONY : src/persistence/repositories/PlanRepository.cpp.s
+
+src/persistence/repositories/ScheduleRepository.o: src/persistence/repositories/ScheduleRepository.cpp.o
+.PHONY : src/persistence/repositories/ScheduleRepository.o
+
+# target to build an object file
+src/persistence/repositories/ScheduleRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o
+.PHONY : src/persistence/repositories/ScheduleRepository.cpp.o
+
+src/persistence/repositories/ScheduleRepository.i: src/persistence/repositories/ScheduleRepository.cpp.i
+.PHONY : src/persistence/repositories/ScheduleRepository.i
+
+# target to preprocess a source file
+src/persistence/repositories/ScheduleRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.i
+.PHONY : src/persistence/repositories/ScheduleRepository.cpp.i
+
+src/persistence/repositories/ScheduleRepository.s: src/persistence/repositories/ScheduleRepository.cpp.s
+.PHONY : src/persistence/repositories/ScheduleRepository.s
+
+# target to generate assembly for a file
+src/persistence/repositories/ScheduleRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.s
+.PHONY : src/persistence/repositories/ScheduleRepository.cpp.s
+
 src/persistence/repositories/UserRepository.o: src/persistence/repositories/UserRepository.cpp.o
 .PHONY : src/persistence/repositories/UserRepository.o
 
@@ -298,6 +442,54 @@ src/persistence/repositories/UserRepository.s: src/persistence/repositories/User
 src/persistence/repositories/UserRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.s
 .PHONY : src/persistence/repositories/UserRepository.cpp.s
+
+src/presentation/views/BookClassView.o: src/presentation/views/BookClassView.cpp.o
+.PHONY : src/presentation/views/BookClassView.o
+
+# target to build an object file
+src/presentation/views/BookClassView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o
+.PHONY : src/presentation/views/BookClassView.cpp.o
+
+src/presentation/views/BookClassView.i: src/presentation/views/BookClassView.cpp.i
+.PHONY : src/presentation/views/BookClassView.i
+
+# target to preprocess a source file
+src/presentation/views/BookClassView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.i
+.PHONY : src/presentation/views/BookClassView.cpp.i
+
+src/presentation/views/BookClassView.s: src/presentation/views/BookClassView.cpp.s
+.PHONY : src/presentation/views/BookClassView.s
+
+# target to generate assembly for a file
+src/presentation/views/BookClassView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.s
+.PHONY : src/presentation/views/BookClassView.cpp.s
+
+src/presentation/views/CreatePlanView.o: src/presentation/views/CreatePlanView.cpp.o
+.PHONY : src/presentation/views/CreatePlanView.o
+
+# target to build an object file
+src/presentation/views/CreatePlanView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o
+.PHONY : src/presentation/views/CreatePlanView.cpp.o
+
+src/presentation/views/CreatePlanView.i: src/presentation/views/CreatePlanView.cpp.i
+.PHONY : src/presentation/views/CreatePlanView.i
+
+# target to preprocess a source file
+src/presentation/views/CreatePlanView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.i
+.PHONY : src/presentation/views/CreatePlanView.cpp.i
+
+src/presentation/views/CreatePlanView.s: src/presentation/views/CreatePlanView.cpp.s
+.PHONY : src/presentation/views/CreatePlanView.s
+
+# target to generate assembly for a file
+src/presentation/views/CreatePlanView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.s
+.PHONY : src/presentation/views/CreatePlanView.cpp.s
 
 src/presentation/views/DashboardView.o: src/presentation/views/DashboardView.cpp.o
 .PHONY : src/presentation/views/DashboardView.o
@@ -395,6 +587,30 @@ src/presentation/views/RegisterTrainerView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.s
 .PHONY : src/presentation/views/RegisterTrainerView.cpp.s
 
+src/presentation/views/ScheduleView.o: src/presentation/views/ScheduleView.cpp.o
+.PHONY : src/presentation/views/ScheduleView.o
+
+# target to build an object file
+src/presentation/views/ScheduleView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o
+.PHONY : src/presentation/views/ScheduleView.cpp.o
+
+src/presentation/views/ScheduleView.i: src/presentation/views/ScheduleView.cpp.i
+.PHONY : src/presentation/views/ScheduleView.i
+
+# target to preprocess a source file
+src/presentation/views/ScheduleView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.i
+.PHONY : src/presentation/views/ScheduleView.cpp.i
+
+src/presentation/views/ScheduleView.s: src/presentation/views/ScheduleView.cpp.s
+.PHONY : src/presentation/views/ScheduleView.s
+
+# target to generate assembly for a file
+src/presentation/views/ScheduleView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.s
+.PHONY : src/presentation/views/ScheduleView.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -409,6 +625,12 @@ help:
 	@echo "... MyTrainer_autogen/mocs_compilation.o"
 	@echo "... MyTrainer_autogen/mocs_compilation.i"
 	@echo "... MyTrainer_autogen/mocs_compilation.s"
+	@echo "... src/business_logic/models/Plan.o"
+	@echo "... src/business_logic/models/Plan.i"
+	@echo "... src/business_logic/models/Plan.s"
+	@echo "... src/business_logic/models/ScheduleSlot.o"
+	@echo "... src/business_logic/models/ScheduleSlot.i"
+	@echo "... src/business_logic/models/ScheduleSlot.s"
 	@echo "... src/business_logic/models/User.o"
 	@echo "... src/business_logic/models/User.i"
 	@echo "... src/business_logic/models/User.s"
@@ -418,12 +640,30 @@ help:
 	@echo "... src/business_logic/services/AuthService.o"
 	@echo "... src/business_logic/services/AuthService.i"
 	@echo "... src/business_logic/services/AuthService.s"
+	@echo "... src/business_logic/services/PlanService.o"
+	@echo "... src/business_logic/services/PlanService.i"
+	@echo "... src/business_logic/services/PlanService.s"
+	@echo "... src/business_logic/services/ScheduleService.o"
+	@echo "... src/business_logic/services/ScheduleService.i"
+	@echo "... src/business_logic/services/ScheduleService.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/persistence/repositories/PlanRepository.o"
+	@echo "... src/persistence/repositories/PlanRepository.i"
+	@echo "... src/persistence/repositories/PlanRepository.s"
+	@echo "... src/persistence/repositories/ScheduleRepository.o"
+	@echo "... src/persistence/repositories/ScheduleRepository.i"
+	@echo "... src/persistence/repositories/ScheduleRepository.s"
 	@echo "... src/persistence/repositories/UserRepository.o"
 	@echo "... src/persistence/repositories/UserRepository.i"
 	@echo "... src/persistence/repositories/UserRepository.s"
+	@echo "... src/presentation/views/BookClassView.o"
+	@echo "... src/presentation/views/BookClassView.i"
+	@echo "... src/presentation/views/BookClassView.s"
+	@echo "... src/presentation/views/CreatePlanView.o"
+	@echo "... src/presentation/views/CreatePlanView.i"
+	@echo "... src/presentation/views/CreatePlanView.s"
 	@echo "... src/presentation/views/DashboardView.o"
 	@echo "... src/presentation/views/DashboardView.i"
 	@echo "... src/presentation/views/DashboardView.s"
@@ -436,6 +676,9 @@ help:
 	@echo "... src/presentation/views/RegisterTrainerView.o"
 	@echo "... src/presentation/views/RegisterTrainerView.i"
 	@echo "... src/presentation/views/RegisterTrainerView.s"
+	@echo "... src/presentation/views/ScheduleView.o"
+	@echo "... src/presentation/views/ScheduleView.i"
+	@echo "... src/presentation/views/ScheduleView.s"
 .PHONY : help
 
 

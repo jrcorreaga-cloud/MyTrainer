@@ -19,15 +19,15 @@ void DashboardView::setupUi(const User& user) {
     if (user.getRole() == Role::Admin) {
         QLabel* adminPanel = new QLabel("--- Admin Dashboard ---\nManage Trainers and Plans here.", this);
         layout->addWidget(adminPanel);
-
+        
         QPushButton* registerTrainerBtn = new QPushButton("Register Personal Trainer", this);
         QPushButton* registerStudentBtn = new QPushButton("Register Student", this);
         QPushButton* createPlanBtn = new QPushButton("Create Fitness Plan", this);
-
+        
         layout->addWidget(registerTrainerBtn);
         layout->addWidget(registerStudentBtn);
         layout->addWidget(createPlanBtn);
-
+        
         connect(registerTrainerBtn, &QPushButton::clicked, this, &DashboardView::onRegisterTrainerClicked);
         connect(registerStudentBtn, &QPushButton::clicked, this, &DashboardView::onRegisterStudentClicked);
         connect(createPlanBtn, &QPushButton::clicked, this, &DashboardView::onCreatePlanClicked);
@@ -35,19 +35,28 @@ void DashboardView::setupUi(const User& user) {
     } else if (user.getRole() == Role::Trainer) {
         QLabel* trainerPanel = new QLabel("--- Trainer Dashboard ---\nManage your schedule here.", this);
         layout->addWidget(trainerPanel);
-
+        
         QPushButton* viewScheduleBtn = new QPushButton("View My Schedule", this);
         layout->addWidget(viewScheduleBtn);
         connect(viewScheduleBtn, &QPushButton::clicked, this, &DashboardView::onViewScheduleClicked);
-
+        
     } else {
         QLabel* studentPanel = new QLabel("--- Student Dashboard ---\nBook classes and view your plan here.", this);
         layout->addWidget(studentPanel);
-
+        
         QPushButton* viewScheduleBtnS = new QPushButton("View Available Classes", this);
         layout->addWidget(viewScheduleBtnS);
         connect(viewScheduleBtnS, &QPushButton::clicked, this, &DashboardView::onViewScheduleClicked);
+        
+        QPushButton* bookClassBtnS = new QPushButton("Book a Class", this);
+        layout->addWidget(bookClassBtnS);
+        connect(bookClassBtnS, &QPushButton::clicked, this, &DashboardView::onBookClassClicked);
     }
+    
+    QPushButton* logoutBtn = new QPushButton("Logout", this);
+    logoutBtn->setStyleSheet("color: red; font-weight: bold; margin-top: 15px;");
+    layout->addWidget(logoutBtn);
+    connect(logoutBtn, &QPushButton::clicked, this, &DashboardView::onLogoutClicked);
 
     layout->addStretch();
 }
@@ -68,11 +77,19 @@ void DashboardView::onViewScheduleClicked() {
     emit viewScheduleRequested();
 }
 
+void DashboardView::onBookClassClicked() {
+    emit bookClassRequested();
+}
+
+void DashboardView::onLogoutClicked() {
+    emit logoutRequested();
+}
+
 QString DashboardView::getRoleName(Role role) const {
     switch (role) {
-    case Role::Admin: return "Administrator";
-    case Role::Trainer: return "Personal Trainer";
-    case Role::Student: return "Student";
-    default: return "Unknown";
+        case Role::Admin: return "Administrator";
+        case Role::Trainer: return "Personal Trainer";
+        case Role::Student: return "Student";
+        default: return "Unknown";
     }
 }

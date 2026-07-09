@@ -1,8 +1,8 @@
 CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o: \
  /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_DashboardView.cpp \
- /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/DashboardView.h \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_BookClassView.cpp \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/BookClassView.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QWidget \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qwidget.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -390,19 +390,34 @@ CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o: \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qsizepolicy.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qcursor.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qbitmap.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QComboBox \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qcombobox.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qstyleoption.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qlocale.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractspinbox.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qvalidator.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qregularexpression.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qslider.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractslider.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qstyle.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtabbar.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtabwidget.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qrubberband.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qframe.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qabstractitemmodel.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QPushButton \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qpushbutton.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractbutton.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QLabel \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlabel.h \
- /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qframe.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qpicture.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qiodevice.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qtextdocument.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qurl.h \
- /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QPushButton \
- /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qpushbutton.h \
- /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractbutton.h \
- /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/models/User.h \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/services/IScheduleService.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/QString \
- /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/models/Role.h \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/services/../../business_logic/models/ScheduleSlot.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qtextcursor.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qtextformat.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qpen.h \
@@ -410,13 +425,28 @@ CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o: \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qtmochelpers.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qtmocconstants.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/q20algorithm.h \
- /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_LoginView.cpp \
- /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/LoginView.h \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_CreatePlanView.cpp \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/CreatePlanView.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QLineEdit \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlineedit.h \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/services/IPlanService.h \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_DashboardView.cpp \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/DashboardView.h \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/models/User.h \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/models/Role.h \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_LoginView.cpp \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/LoginView.h \
  /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/services/IAuthService.h \
  /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_RegisterStudentView.cpp \
  /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/RegisterStudentView.h \
  /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/services/IAdminService.h \
  /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_RegisterTrainerView.cpp \
- /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/RegisterTrainerView.h
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/RegisterTrainerView.h \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_ScheduleView.cpp \
+ /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/ScheduleView.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QListWidget \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlistwidget.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlistview.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractitemview.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qitemselectionmodel.h

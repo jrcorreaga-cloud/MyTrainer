@@ -471,9 +471,21 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.h",
+			"MU",
+			"WA4DACW753/moc_Plan.cpp",
+			null
+		],
+		[
 			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Role.h",
 			"MU",
 			"WA4DACW753/moc_Role.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.h",
+			"MU",
+			"WA4DACW753/moc_ScheduleSlot.cpp",
 			null
 		],
 		[
@@ -507,15 +519,75 @@
 			null
 		],
 		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IPlanService.h",
+			"MU",
+			"JEFYWV5TFH/moc_IPlanService.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IScheduleService.h",
+			"MU",
+			"JEFYWV5TFH/moc_IScheduleService.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.h",
+			"MU",
+			"JEFYWV5TFH/moc_PlanService.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.h",
+			"MU",
+			"JEFYWV5TFH/moc_ScheduleService.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IPlanRepository.h",
+			"MU",
+			"3M3VFWVXBJ/moc_IPlanRepository.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IScheduleRepository.h",
+			"MU",
+			"3M3VFWVXBJ/moc_IScheduleRepository.cpp",
+			null
+		],
+		[
 			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IUserRepository.h",
 			"MU",
 			"3M3VFWVXBJ/moc_IUserRepository.cpp",
 			null
 		],
 		[
+			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.h",
+			"MU",
+			"3M3VFWVXBJ/moc_PlanRepository.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.h",
+			"MU",
+			"3M3VFWVXBJ/moc_ScheduleRepository.cpp",
+			null
+		],
+		[
 			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.h",
 			"MU",
 			"3M3VFWVXBJ/moc_UserRepository.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.h",
+			"MU",
+			"KJRI3GH6ZS/moc_BookClassView.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/CreatePlanView.h",
+			"MU",
+			"KJRI3GH6ZS/moc_CreatePlanView.cpp",
 			null
 		],
 		[
@@ -540,6 +612,12 @@
 			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.h",
 			"MU",
 			"KJRI3GH6ZS/moc_RegisterTrainerView.cpp",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/ScheduleView.h",
+			"MU",
+			"KJRI3GH6ZS/moc_ScheduleView.cpp",
 			null
 		]
 	],
@@ -603,6 +681,16 @@
 	"SOURCES" : 
 	[
 		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.cpp",
 			"MU",
 			null
@@ -617,9 +705,39 @@
 			"MU",
 			null
 		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.cpp",
+			"MU",
+			null
+		],
 		[ "/home/jordan13/Escritorio/MyTrainer/src/main.cpp", "MU", null ],
 		[
+			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/CreatePlanView.cpp",
 			"MU",
 			null
 		],
@@ -640,6 +758,11 @@
 		],
 		[
 			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/ScheduleView.cpp",
 			"MU",
 			null
 		]

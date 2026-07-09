@@ -1,0 +1,5 @@
+C:/Users/Tommy/OneDrive/Documentos/UFOP/MyTrainer/MyTrainer/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/MyTrainer.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/MyTrainer/MyTrainer/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/edit_cache.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/MyTrainer/MyTrainer/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/MyTrainer/MyTrainer/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/MyTrainer_autogen_timestamp_deps.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/MyTrainer/MyTrainer/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/MyTrainer_autogen.dir

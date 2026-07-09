@@ -409,10 +409,20 @@ CMakeFiles/MyTrainer.dir/src/main.cpp.o: \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/QString \
  /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/../../business_logic/models/User.h \
  /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/../../business_logic/models/Role.h \
+ /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.h \
+ /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IPlanRepository.h \
+ /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/../../business_logic/models/Plan.h \
+ /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.h \
+ /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IScheduleRepository.h \
+ /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/../../business_logic/models/ScheduleSlot.h \
  /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.h \
  /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAuthService.h \
  /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.h \
  /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAdminService.h \
+ /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.h \
+ /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IPlanService.h \
+ /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.h \
+ /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IScheduleService.h \
  /home/jordan13/Escritorio/MyTrainer/src/presentation/views/LoginView.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QWidget \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QLineEdit \
@@ -432,4 +442,27 @@ CMakeFiles/MyTrainer.dir/src/main.cpp.o: \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qiodevice.h \
  /home/jordan13/Escritorio/MyTrainer/src/presentation/views/DashboardView.h \
  /home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.h \
- /home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.h
+ /home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.h \
+ /home/jordan13/Escritorio/MyTrainer/src/presentation/views/CreatePlanView.h \
+ /home/jordan13/Escritorio/MyTrainer/src/presentation/views/ScheduleView.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QListWidget \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlistwidget.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlistview.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractitemview.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qabstractitemmodel.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qitemselectionmodel.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qstyleoption.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractspinbox.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qvalidator.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qregularexpression.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qslider.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractslider.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qstyle.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtabbar.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtabwidget.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qrubberband.h \
+ /home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QComboBox \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qcombobox.h

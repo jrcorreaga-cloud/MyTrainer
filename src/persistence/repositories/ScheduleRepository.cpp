@@ -10,3 +10,13 @@ ScheduleRepository::ScheduleRepository() {
 std::vector<ScheduleSlot> ScheduleRepository::getAllSlots() {
     return m_mockSlots;
 }
+
+bool ScheduleRepository::updateSlotBooking(int slotId, int studentId) {
+    for (auto& slot : m_mockSlots) {
+        if (slot.getId() == slotId && !slot.getIsBooked()) {
+            slot = ScheduleSlot(slot.getId(), slot.getTrainerId(), studentId, slot.getDateTime(), true);
+            return true;
+        }
+    }
+    return false;
+}

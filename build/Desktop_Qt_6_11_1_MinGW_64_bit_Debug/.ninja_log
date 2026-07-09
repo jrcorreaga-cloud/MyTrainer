@@ -1,0 +1,25 @@
+# ninja log v6
+9	1374	8052570186660033	MyTrainer_autogen/timestamp	11ab912992857fb3
+9	1374	8052570186660033	MyTrainer_autogen/mocs_compilation.cpp	11ab912992857fb3
+9	1374	8052570186660033	C:/Users/Tommy/OneDrive/Documentos/UFOP/MyTrainer/MyTrainer/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/MyTrainer_autogen/timestamp	11ab912992857fb3
+9	1374	8052570186660033	C:/Users/Tommy/OneDrive/Documentos/UFOP/MyTrainer/MyTrainer/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/MyTrainer_autogen/mocs_compilation.cpp	11ab912992857fb3
+1404	4368	8052570188060185	CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.obj	efc2627917d00293
+1389	4376	8052570187893951	CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.obj	a9c4054f223ac73a
+1412	4385	8052570188131220	CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.obj	8f75ce62b0999b33
+1396	4393	8052570187973933	CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.obj	e626885c29e79683
+1419	4400	8052570188201218	CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.obj	a093735d85669277
+1425	4408	8052570188261203	CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.obj	5ff773ea0d4fae1e
+1479	4413	8052570188802227	CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.obj	ac28986eaf93161e
+1464	4414	8052570188652213	CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.obj	3ef309cb8356d414
+1488	4433	8052570188902227	CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.obj	4614400e1953d726
+1433	4453	8052570188342243	CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.obj	6437bab3445d5795
+1503	6075	8052570189046370	CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.obj	b0e804299a64b6db
+1497	6129	8052570188982221	CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.obj	b75c2503c3521163
+1382	6537	8052570187823958	CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.obj	78cf882f08eef35d
+1440	6669	8052570188412206	CMakeFiles/MyTrainer.dir/src/main.cpp.obj	66abb106dd007754
+4369	7636	8052570217697470	CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.obj	c801aca9268465b7
+4393	7663	8052570217937968	CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.obj	60d5095158656403
+4385	7737	8052570217857971	CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.obj	6a3640b22f8c1988
+4377	7764	8052570217777471	CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.obj	2c58356effe33fff
+4401	8151	8052570218017979	CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.obj	e7e2fb1217b211d2
+8151	8705	8052570255519827	MyTrainer.exe	db293763a210fa76

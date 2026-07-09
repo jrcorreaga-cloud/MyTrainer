@@ -6,7 +6,11 @@ MyTrainer_autogen/timestamp: \
 	/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/moc_predefs.h \
+	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.cpp \
+	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.h \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Role.h \
+	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.cpp \
+	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.h \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.cpp \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.h \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.cpp \
@@ -15,10 +19,26 @@ MyTrainer_autogen/timestamp: \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.h \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAdminService.h \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAuthService.h \
+	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IPlanService.h \
+	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IScheduleService.h \
+	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.cpp \
+	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.h \
+	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.cpp \
+	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.h \
 	/home/jordan13/Escritorio/MyTrainer/src/main.cpp \
+	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IPlanRepository.h \
+	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IScheduleRepository.h \
 	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IUserRepository.h \
+	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.cpp \
+	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.h \
+	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.cpp \
+	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.h \
 	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.cpp \
 	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.h \
+	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.cpp \
+	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.h \
+	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/CreatePlanView.cpp \
+	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/CreatePlanView.h \
 	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/DashboardView.cpp \
 	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/DashboardView.h \
 	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/LoginView.cpp \
@@ -27,6 +47,8 @@ MyTrainer_autogen/timestamp: \
 	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.h \
 	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.cpp \
 	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.h \
+	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/ScheduleView.cpp \
+	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/ScheduleView.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/QString \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/q17memory.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/q20bit.h \
@@ -37,6 +59,7 @@ MyTrainer_autogen/timestamp: \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/q20utility.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/q23type_traits.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/q23utility.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qabstractitemmodel.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qalgorithms.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qalloc.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qanystringview.h \
@@ -81,11 +104,13 @@ MyTrainer_autogen/timestamp: \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qhashfunctions.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qiodevice.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qiodevicebase.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qitemselectionmodel.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qiterable.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qiterator.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qlatin1stringview.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qline.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qlist.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qlocale.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qlogging.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qmalloc.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qmap.h \
@@ -106,6 +131,7 @@ MyTrainer_autogen/timestamp: \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qprocessordetection.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qrect.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qrefcount.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qregularexpression.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qscopedpointer.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qscopeguard.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qset.h \
@@ -188,17 +214,34 @@ MyTrainer_autogen/timestamp: \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qtguiexports.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qtguiglobal.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qtransform.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qvalidator.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qwindowdefs.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QComboBox \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QLabel \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QLineEdit \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QListWidget \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QPushButton \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QWidget \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractbutton.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractitemview.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractslider.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qabstractspinbox.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qcombobox.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qframe.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlabel.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlineedit.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlistview.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlistwidget.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qpushbutton.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qrubberband.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qsizepolicy.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qslider.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qstyle.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qstyleoption.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtabbar.h \
+	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtabwidget.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtwidgetsexports.h \
 	/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \

@@ -90,10 +90,38 @@ CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.s"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/mocs_compilation.cpp -o CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.s
 
+CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
+CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.cpp
+CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o -MF CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.cpp
+
+CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.cpp > CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.i
+
+CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.cpp -o CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.s
+
+CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
+CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.cpp
+CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o -MF CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.cpp
+
+CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.cpp > CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.i
+
+CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.cpp -o CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.s
+
 CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
 CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.cpp
 CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o -MF CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.cpp
 
 CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.i: cmake_force
@@ -107,7 +135,7 @@ CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.s: cmake_force
 CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
 CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.cpp
 CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o -MF CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.cpp
 
 CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.i: cmake_force
@@ -121,7 +149,7 @@ CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.s: cmake_f
 CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
 CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.cpp
 CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o -MF CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.cpp
 
 CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.i: cmake_force
@@ -132,10 +160,38 @@ CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.s"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.cpp -o CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.s
 
+CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
+CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.cpp
+CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o -MF CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.cpp
+
+CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.cpp > CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.i
+
+CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.cpp -o CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.s
+
+CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
+CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.cpp
+CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o -MF CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.cpp
+
+CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.cpp > CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.i
+
+CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.cpp -o CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.s
+
 CMakeFiles/MyTrainer.dir/src/main.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
 CMakeFiles/MyTrainer.dir/src/main.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/main.cpp
 CMakeFiles/MyTrainer.dir/src/main.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyTrainer.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MyTrainer.dir/src/main.cpp.o"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/main.cpp.o -MF CMakeFiles/MyTrainer.dir/src/main.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/main.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/main.cpp
 
 CMakeFiles/MyTrainer.dir/src/main.cpp.i: cmake_force
@@ -146,10 +202,38 @@ CMakeFiles/MyTrainer.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/main.cpp.s"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/main.cpp -o CMakeFiles/MyTrainer.dir/src/main.cpp.s
 
+CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
+CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.cpp
+CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o -MF CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.cpp
+
+CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.cpp > CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.i
+
+CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.cpp -o CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.s
+
+CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
+CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.cpp
+CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o -MF CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.cpp
+
+CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.cpp > CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.i
+
+CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.cpp -o CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.s
+
 CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
 CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.cpp
 CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o -MF CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.cpp
 
 CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.i: cmake_force
@@ -160,10 +244,38 @@ CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.s"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.cpp -o CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.s
 
+CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
+CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.cpp
+CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o -MF CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.cpp
+
+CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.cpp > CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.i
+
+CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.cpp -o CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.s
+
+CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
+CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/presentation/views/CreatePlanView.cpp
+CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o -MF CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/presentation/views/CreatePlanView.cpp
+
+CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordan13/Escritorio/MyTrainer/src/presentation/views/CreatePlanView.cpp > CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.i
+
+CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/presentation/views/CreatePlanView.cpp -o CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.s
+
 CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
 CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/presentation/views/DashboardView.cpp
 CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o -MF CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/presentation/views/DashboardView.cpp
 
 CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.i: cmake_force
@@ -177,7 +289,7 @@ CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.s: cmake_force
 CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
 CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/presentation/views/LoginView.cpp
 CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o -MF CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/presentation/views/LoginView.cpp
 
 CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.i: cmake_force
@@ -191,7 +303,7 @@ CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.s: cmake_force
 CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
 CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.cpp
 CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o -MF CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.cpp
 
 CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.i: cmake_force
@@ -205,7 +317,7 @@ CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.s: cmake
 CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
 CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.cpp
 CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o -MF CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.cpp
 
 CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.i: cmake_force
@@ -216,32 +328,64 @@ CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.s"
 	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.cpp -o CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.s
 
+CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o: CMakeFiles/MyTrainer.dir/flags.make
+CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o: /home/jordan13/Escritorio/MyTrainer/src/presentation/views/ScheduleView.cpp
+CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o: CMakeFiles/MyTrainer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o -MF CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o.d -o CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o -c /home/jordan13/Escritorio/MyTrainer/src/presentation/views/ScheduleView.cpp
+
+CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.i"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jordan13/Escritorio/MyTrainer/src/presentation/views/ScheduleView.cpp > CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.i
+
+CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.s"
+	/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jordan13/Escritorio/MyTrainer/src/presentation/views/ScheduleView.cpp -o CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.s
+
 # Object files for target MyTrainer
 MyTrainer_OBJECTS = \
 "CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o" \
+"CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o" \
 "CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o" \
 "CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o" \
 "CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o" \
+"CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o" \
+"CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o" \
 "CMakeFiles/MyTrainer.dir/src/main.cpp.o" \
+"CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o" \
+"CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o" \
 "CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o" \
+"CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o" \
+"CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o" \
 "CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o" \
 "CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o" \
 "CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o" \
-"CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o"
+"CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o" \
+"CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o"
 
 # External object files for target MyTrainer
 MyTrainer_EXTERNAL_OBJECTS =
 
 MyTrainer: CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o
+MyTrainer: CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o
+MyTrainer: CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o
 MyTrainer: CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o
 MyTrainer: CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o
 MyTrainer: CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o
+MyTrainer: CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o
+MyTrainer: CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o
 MyTrainer: CMakeFiles/MyTrainer.dir/src/main.cpp.o
+MyTrainer: CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o
+MyTrainer: CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o
 MyTrainer: CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o
+MyTrainer: CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o
+MyTrainer: CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o
 MyTrainer: CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o
 MyTrainer: CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o
 MyTrainer: CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o
 MyTrainer: CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o
+MyTrainer: CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o
 MyTrainer: CMakeFiles/MyTrainer.dir/build.make
 MyTrainer: /home/jordan13/Qt/6.11.0/gcc_64/lib/libQt6Widgets.so.6.11.0
 MyTrainer: /home/jordan13/Qt/6.11.0/gcc_64/lib/libQt6Gui.so.6.11.0
@@ -249,7 +393,7 @@ MyTrainer: /usr/lib/x86_64-linux-gnu/libGLX.so
 MyTrainer: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 MyTrainer: /home/jordan13/Qt/6.11.0/gcc_64/lib/libQt6Core.so.6.11.0
 MyTrainer: CMakeFiles/MyTrainer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable MyTrainer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable MyTrainer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyTrainer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

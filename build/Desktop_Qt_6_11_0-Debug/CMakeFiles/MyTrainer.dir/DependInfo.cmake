@@ -10,15 +10,24 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "MyTrainer_autogen/timestamp" "custom" "MyTrainer_autogen/deps"
   "/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/mocs_compilation.cpp" "CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o.d"
+  "/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.cpp" "CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o.d"
+  "/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.cpp" "CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.cpp" "CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.cpp" "CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.cpp" "CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o.d"
+  "/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.cpp" "CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o.d"
+  "/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.cpp" "CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/main.cpp" "CMakeFiles/MyTrainer.dir/src/main.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/main.cpp.o.d"
+  "/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.cpp" "CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o.d"
+  "/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.cpp" "CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.cpp" "CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o.d"
+  "/home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.cpp" "CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o.d"
+  "/home/jordan13/Escritorio/MyTrainer/src/presentation/views/CreatePlanView.cpp" "CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/presentation/views/DashboardView.cpp" "CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/presentation/views/LoginView.cpp" "CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterStudentView.cpp" "CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o.d"
   "/home/jordan13/Escritorio/MyTrainer/src/presentation/views/RegisterTrainerView.cpp" "CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o.d"
+  "/home/jordan13/Escritorio/MyTrainer/src/presentation/views/ScheduleView.cpp" "CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o" "gcc" "CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

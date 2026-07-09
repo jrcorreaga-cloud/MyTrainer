@@ -1,5 +1,0 @@
-/media/cesar25/58706AB3706A9810/qtproyects/MyTrainer/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/MyTrainer.dir
-/media/cesar25/58706AB3706A9810/qtproyects/MyTrainer/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/edit_cache.dir
-/media/cesar25/58706AB3706A9810/qtproyects/MyTrainer/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/rebuild_cache.dir
-/media/cesar25/58706AB3706A9810/qtproyects/MyTrainer/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/MyTrainer_autogen_timestamp_deps.dir
-/media/cesar25/58706AB3706A9810/qtproyects/MyTrainer/build/Desktop_Qt_6_11_1_Debug/CMakeFiles/MyTrainer_autogen.dir
