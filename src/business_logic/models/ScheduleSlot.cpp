@@ -1,29 +1,41 @@
 #include "ScheduleSlot.h"
 
-ScheduleSlot::ScheduleSlot() : m_id(0), m_trainerId(0), m_studentId(0), m_dateTime(""), m_isBooked(false) {}
+class ScheduleSlotBody {
+public:
+    int id;
+    int trainerId;
+    int studentId;
+    QString dateTime;
+    bool isBooked;
+
+    ScheduleSlotBody() : id(0), trainerId(0), studentId(0), isBooked(false) {}
+    ScheduleSlotBody(int i, int t, int s, QString d, bool b)
+        : id(i), trainerId(t), studentId(s), dateTime(d), isBooked(b) {}
+    ScheduleSlotBody* clone() const { return new ScheduleSlotBody(*this); }
+};
+
+ScheduleSlot::ScheduleSlot() : pImpl(new ScheduleSlotBody()) {}
 
 ScheduleSlot::ScheduleSlot(int id, int trainerId, int studentId, const QString& dateTime, bool isBooked)
-    : m_id(id), m_trainerId(trainerId), m_studentId(studentId), m_dateTime(dateTime), m_isBooked(isBooked) {}
+    : pImpl(new ScheduleSlotBody(id, trainerId, studentId, dateTime, isBooked)) {}
 
 ScheduleSlot::ScheduleSlot(const ScheduleSlot& other)
-    : m_id(other.m_id), m_trainerId(other.m_trainerId), m_studentId(other.m_studentId),
-    m_dateTime(other.m_dateTime), m_isBooked(other.m_isBooked) {}
+    : pImpl(other.pImpl ? other.pImpl->clone() : nullptr) {}
 
 ScheduleSlot& ScheduleSlot::operator=(const ScheduleSlot& other) {
     if (this != &other) {
-        m_id = other.m_id;
-        m_trainerId = other.m_trainerId;
-        m_studentId = other.m_studentId;
-        m_dateTime = other.m_dateTime;
-        m_isBooked = other.m_isBooked;
+        delete pImpl;
+        pImpl = other.pImpl ? other.pImpl->clone() : nullptr;
     }
     return *this;
 }
 
-ScheduleSlot::~ScheduleSlot() {}
+ScheduleSlot::~ScheduleSlot() {
+    delete pImpl;
+}
 
-int ScheduleSlot::getId() const { return m_id; }
-int ScheduleSlot::getTrainerId() const { return m_trainerId; }
-int ScheduleSlot::getStudentId() const { return m_studentId; }
-QString ScheduleSlot::getDateTime() const { return m_dateTime; }
-bool ScheduleSlot::getIsBooked() const { return m_isBooked; }
+int ScheduleSlot::getId() const { return pImpl->id; }
+int ScheduleSlot::getTrainerId() const { return pImpl->trainerId; }
+int ScheduleSlot::getStudentId() const { return pImpl->studentId; }
+QString ScheduleSlot::getDateTime() const { return pImpl->dateTime; }
+bool ScheduleSlot::getIsBooked() const { return pImpl->isBooked; }

@@ -408,7 +408,6 @@ CMakeFiles/MyTrainer.dir/src/main.cpp.o: \
  /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IUserRepository.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/QString \
  /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/../../business_logic/models/User.h \
- /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/../../business_logic/models/Role.h \
  /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.h \
  /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IPlanRepository.h \
  /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/../../business_logic/models/Plan.h \
@@ -462,7 +461,4 @@ CMakeFiles/MyTrainer.dir/src/main.cpp.o: \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qstyle.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtabbar.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qtabwidget.h \
- /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qrubberband.h \
- /home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.h \
- /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QComboBox \
- /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qcombobox.h
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qrubberband.h

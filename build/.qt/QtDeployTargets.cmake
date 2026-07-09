@@ -1,2 +1,8 @@
+set(__QT_DEPLOY_TARGET_CoreLib_FILE /home/jordan13/Escritorio/MyTrainer/build/libCoreLib.a)
+set(__QT_DEPLOY_TARGET_CoreLib_TYPE STATIC_LIBRARY)
 set(__QT_DEPLOY_TARGET_MyTrainer_FILE /home/jordan13/Escritorio/MyTrainer/build/MyTrainer)
 set(__QT_DEPLOY_TARGET_MyTrainer_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_unit_tests_FILE /home/jordan13/Escritorio/MyTrainer/build/unit_tests)
+set(__QT_DEPLOY_TARGET_unit_tests_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_funcional_tests_FILE /home/jordan13/Escritorio/MyTrainer/build/funcional_tests)
+set(__QT_DEPLOY_TARGET_funcional_tests_TYPE EXECUTABLE)

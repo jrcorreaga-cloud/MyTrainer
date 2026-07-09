@@ -1,6 +1,12 @@
 #pragma once
 #include <QString>
 
+class PlanBody;
+
+/**
+ * @class Plan
+ * @brief Handle class for Plan entity using Pimpl idiom.
+ */
 class Plan {
 public:
     Plan();
@@ -15,8 +21,5 @@ public:
     int getDurationMonths() const;
 
 private:
-    int m_id;
-    QString m_name;
-    double m_price;
-    int m_durationMonths;
+    PlanBody* pImpl;
 };

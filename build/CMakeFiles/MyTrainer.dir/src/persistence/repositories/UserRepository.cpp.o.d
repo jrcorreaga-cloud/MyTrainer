@@ -289,4 +289,6 @@ CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o: \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qstringconverter.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qstringconverter_base.h \
  /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/../../business_logic/models/User.h \
- /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/../../business_logic/models/Role.h
+ /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/../../business_logic/models/ModelFactory.h \
+ /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/../../business_logic/models/Plan.h \
+ /home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/../../business_logic/models/ScheduleSlot.h

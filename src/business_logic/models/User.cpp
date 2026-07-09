@@ -1,29 +1,41 @@
 #include "User.h"
 
-User::User() : m_id(0), m_email(""), m_passwordHash(""), m_role(Role::Student), m_specialties("") {}
+// The Body class defined only in the CPP file
+class UserBody {
+public:
+    int id;
+    QString email;
+    QString passwordHash;
+    Role role;
+    QString specialties;
+
+    UserBody() : id(0), role(Role::Student) {}
+    UserBody(int i, QString e, QString p, Role r, QString s)
+        : id(i), email(e), passwordHash(p), role(r), specialties(s) {}
+    UserBody* clone() const { return new UserBody(*this); }
+};
+
+User::User() : pImpl(new UserBody()) {}
 
 User::User(int id, const QString& email, const QString& passwordHash, Role role, const QString& specialties)
-    : m_id(id), m_email(email), m_passwordHash(passwordHash), m_role(role), m_specialties(specialties) {}
+    : pImpl(new UserBody(id, email, passwordHash, role, specialties)) {}
 
-User::User(const User& other) 
-    : m_id(other.m_id), m_email(other.m_email), 
-      m_passwordHash(other.m_passwordHash), m_role(other.m_role), m_specialties(other.m_specialties) {}
+User::User(const User& other) : pImpl(other.pImpl ? other.pImpl->clone() : nullptr) {}
 
 User& User::operator=(const User& other) {
     if (this != &other) {
-        m_id = other.m_id;
-        m_email = other.m_email;
-        m_passwordHash = other.m_passwordHash;
-        m_role = other.m_role;
-        m_specialties = other.m_specialties;
+        delete pImpl;
+        pImpl = other.pImpl ? other.pImpl->clone() : nullptr;
     }
     return *this;
 }
 
-User::~User() {}
+User::~User() {
+    delete pImpl;
+}
 
-int User::getId() const { return m_id; }
-QString User::getEmail() const { return m_email; }
-QString User::getPasswordHash() const { return m_passwordHash; }
-Role User::getRole() const { return m_role; }
-QString User::getSpecialties() const { return m_specialties; }
+int User::getId() const { return pImpl->id; }
+QString User::getEmail() const { return pImpl->email; }
+QString User::getPasswordHash() const { return pImpl->passwordHash; }
+Role User::getRole() const { return pImpl->role; }
+QString User::getSpecialties() const { return pImpl->specialties; }

@@ -1,6 +1,5 @@
 /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_LoginView.cpp: /home/jordan13/Escritorio/MyTrainer/src/presentation/views/LoginView.h \
   /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/moc_predefs.h \
-  /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Role.h \
   /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.h \
   /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAuthService.h \
   /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/QString \

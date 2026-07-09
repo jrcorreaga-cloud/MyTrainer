@@ -1,6 +1,7 @@
 #include "LoginView.h"
 #include <QVBoxLayout>
 #include <QFormLayout>
+#include <QApplication>
 
 LoginView::LoginView(IAuthService* authService, QWidget *parent)
     : QWidget(parent), m_authService(authService) {
@@ -36,7 +37,12 @@ void LoginView::setupUi() {
     m_loginButton = new QPushButton("Login", this);
     mainLayout->addWidget(m_loginButton);
 
+    QPushButton* exitBtn = new QPushButton("Exit Program", this);
+    exitBtn->setStyleSheet("background-color: darkred; color: white; font-weight: bold; margin-top: 10px;");
+    mainLayout->addWidget(exitBtn);
+
     connect(m_loginButton, &QPushButton::clicked, this, &LoginView::onLoginClicked);
+    connect(exitBtn, &QPushButton::clicked, qApp, &QApplication::quit);
     connect(m_passwordInput, &QLineEdit::returnPressed, this, &LoginView::onLoginClicked);
 }
 

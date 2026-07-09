@@ -1,3 +1,8 @@
+/**
+ * @file CreatePlanView.h
+ * @brief Core functionality for CreatePlanView
+ */
+
 #pragma once
 
 #include <QWidget>
@@ -6,17 +11,37 @@
 #include <QLabel>
 #include "../../business_logic/services/IPlanService.h"
 
+/**
+ * @class CreatePlanView
+ * @brief Main class for CreatePlanView
+ */
 class CreatePlanView : public QWidget {
     Q_OBJECT
 
 public:
+    /**
+     * @brief Executes CreatePlanView operation.
+     * @return Result of the operation.
+     */
     explicit CreatePlanView(IPlanService* planService, QWidget *parent = nullptr);
 
 signals:
+    /**
+     * @brief Executes backRequested operation.
+     * @return Result of the operation.
+     */
     void backRequested();
 
 private slots:
+    /**
+     * @brief Executes onCreateClicked operation.
+     * @return Result of the operation.
+     */
     void onCreateClicked();
+    /**
+     * @brief Executes onBackClicked operation.
+     * @return Result of the operation.
+     */
     void onBackClicked();
 
 private:
@@ -28,5 +53,9 @@ private:
     QPushButton* m_backButton;
     QLabel* m_statusLabel;
 
+    /**
+     * @brief Executes setupUi operation.
+     * @return Result of the operation.
+     */
     void setupUi();
 };

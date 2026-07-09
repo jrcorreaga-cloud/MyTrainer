@@ -1,9 +1,11 @@
 #include "UserRepository.h"
+#include "../../business_logic/models/ModelFactory.h"
 
-UserRepository::UserRepository() : m_nextId(4) {
-    m_mockUsers.push_back(User(1, "admin@mytrainer.com", "admin123", Role::Admin));
-    m_mockUsers.push_back(User(2, "trainer@mytrainer.com", "trainer123", Role::Trainer, "Weightlifting"));
-    m_mockUsers.push_back(User(3, "student@mytrainer.com", "student123", Role::Student));
+UserRepository::UserRepository() : m_nextId(1) {
+    // Mock users
+    m_mockUsers.push_back(ModelFactory::createUser(m_nextId++, "admin@mytrainer.com", "admin123", Role::Admin));
+    m_mockUsers.push_back(ModelFactory::createUser(m_nextId++, "trainer@mytrainer.com", "trainer123", Role::Trainer, "Weightlifting"));
+    m_mockUsers.push_back(ModelFactory::createUser(m_nextId++, "student@mytrainer.com", "student123", Role::Student));
 }
 
 std::optional<User> UserRepository::getUserByEmail(const QString& email) {
@@ -14,16 +16,13 @@ std::optional<User> UserRepository::getUserByEmail(const QString& email) {
     }
     return std::nullopt;
 }
-
 bool UserRepository::addUser(const User& user) {
     for (const auto& existingUser : m_mockUsers) {
         if (existingUser.getEmail() == user.getEmail()) {
             return false; // Email already exists
         }
     }
-    User newUser = user;
-    // Overriding ID logic just for mock safety
-    User toSave(m_nextId++, newUser.getEmail(), newUser.getPasswordHash(), newUser.getRole(), newUser.getSpecialties());
+    User toSave = ModelFactory::createUser(m_nextId++, user.getEmail(), user.getPasswordHash(), user.getRole(), user.getSpecialties());
     m_mockUsers.push_back(toSave);
     return true;
 }

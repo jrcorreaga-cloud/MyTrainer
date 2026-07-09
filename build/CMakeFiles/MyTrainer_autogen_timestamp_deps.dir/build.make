@@ -66,9 +66,12 @@ include CMakeFiles/MyTrainer_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/MyTrainer_autogen_timestamp_deps.dir/progress.make
 
+CMakeFiles/MyTrainer_autogen_timestamp_deps: libCoreLib.a
+CMakeFiles/MyTrainer_autogen_timestamp_deps: /home/jordan13/Qt/6.11.0/gcc_64/lib/libQt6Core.so.6.11.0
 CMakeFiles/MyTrainer_autogen_timestamp_deps: /home/jordan13/Qt/6.11.0/gcc_64/libexec/moc
-CMakeFiles/MyTrainer_autogen_timestamp_deps: /home/jordan13/Qt/6.11.0/gcc_64/libexec/uic
 CMakeFiles/MyTrainer_autogen_timestamp_deps: /home/jordan13/Qt/6.11.0/gcc_64/lib/libQt6Widgets.so.6.11.0
+CMakeFiles/MyTrainer_autogen_timestamp_deps: /home/jordan13/Qt/6.11.0/gcc_64/lib/libQt6Gui.so.6.11.0
+CMakeFiles/MyTrainer_autogen_timestamp_deps: /home/jordan13/Qt/6.11.0/gcc_64/libexec/uic
 
 MyTrainer_autogen_timestamp_deps: CMakeFiles/MyTrainer_autogen_timestamp_deps
 MyTrainer_autogen_timestamp_deps: CMakeFiles/MyTrainer_autogen_timestamp_deps.dir/build.make

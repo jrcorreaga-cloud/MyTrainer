@@ -408,7 +408,6 @@ CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o: \
  /home/jordan13/Escritorio/MyTrainer/src/presentation/views/../../business_logic/services/IAuthService.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/QString \
  /home/jordan13/Escritorio/MyTrainer/src/presentation/views/../../business_logic/services/../models/User.h \
- /home/jordan13/Escritorio/MyTrainer/src/presentation/views/../../business_logic/services/../models/Role.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QVBoxLayout \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qboxlayout.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qlayout.h \
@@ -416,4 +415,18 @@ CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o: \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qgridlayout.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QFormLayout \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qformlayout.h \
- /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QLayout
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QLayout \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/QApplication \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets/qapplication.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qcoreapplication.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qcoreevent.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qbasictimer.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qabstracteventdispatcher.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qeventloop.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qdeadlinetimer.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qnativeinterface.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qcoreapplication_platform.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qguiapplication.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qinputmethod.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qlocale.h \
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtGui/qguiapplication_platform.h

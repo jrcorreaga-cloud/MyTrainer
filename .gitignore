@@ -1,1 +1,26 @@
+# CMake and Build artifacts
 build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.a
+*.o
+
+# Qt Creator specific files
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user*
+
+# Doxygen output
+html/
+latex/
+Doxyfile.bak
+
+# Custom Helper Scripts
+add_dox.py
+enable_dot.py
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -290,5 +290,4 @@ CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o: \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qstringconverter.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qstringconverter_base.h \
  /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/../models/User.h \
- /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/../models/Role.h \
  /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/../../persistence/repositories/IUserRepository.h

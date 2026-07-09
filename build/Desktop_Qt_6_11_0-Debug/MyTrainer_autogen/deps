@@ -6,35 +6,13 @@ MyTrainer_autogen/timestamp: \
 	/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/moc_predefs.h \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.cpp \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.h \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Role.h \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.cpp \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.h \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.cpp \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.h \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.cpp \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.h \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.cpp \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.h \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAdminService.h \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAuthService.h \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IPlanService.h \
 	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IScheduleService.h \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.cpp \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.h \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.cpp \
-	/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.h \
 	/home/jordan13/Escritorio/MyTrainer/src/main.cpp \
-	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IPlanRepository.h \
-	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IScheduleRepository.h \
-	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IUserRepository.h \
-	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.cpp \
-	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.h \
-	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.cpp \
-	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.h \
-	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.cpp \
-	/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.h \
 	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.cpp \
 	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.h \
 	/home/jordan13/Escritorio/MyTrainer/src/presentation/views/CreatePlanView.cpp \

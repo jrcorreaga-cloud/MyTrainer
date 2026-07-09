@@ -433,7 +433,6 @@ CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o: \
  /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_DashboardView.cpp \
  /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/DashboardView.h \
  /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/models/User.h \
- /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/models/Role.h \
  /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_LoginView.cpp \
  /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/LoginView.h \
  /home/jordan13/Escritorio/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/services/IAuthService.h \

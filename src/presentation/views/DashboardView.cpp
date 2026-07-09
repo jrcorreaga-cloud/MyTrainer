@@ -1,5 +1,6 @@
 #include "DashboardView.h"
 #include <QVBoxLayout>
+#include <QApplication>
 
 DashboardView::DashboardView(const User& user, QWidget *parent)
     : QWidget(parent) {
@@ -57,6 +58,11 @@ void DashboardView::setupUi(const User& user) {
     logoutBtn->setStyleSheet("color: red; font-weight: bold; margin-top: 15px;");
     layout->addWidget(logoutBtn);
     connect(logoutBtn, &QPushButton::clicked, this, &DashboardView::onLogoutClicked);
+    
+    QPushButton* exitBtn = new QPushButton("Exit Program", this);
+    exitBtn->setStyleSheet("background-color: darkred; color: white; font-weight: bold; margin-top: 5px;");
+    layout->addWidget(exitBtn);
+    connect(exitBtn, &QPushButton::clicked, qApp, &QApplication::quit);
 
     layout->addStretch();
 }

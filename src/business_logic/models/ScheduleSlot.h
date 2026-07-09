@@ -1,6 +1,12 @@
 #pragma once
 #include <QString>
 
+class ScheduleSlotBody;
+
+/**
+ * @class ScheduleSlot
+ * @brief Handle class for ScheduleSlot entity using Pimpl idiom.
+ */
 class ScheduleSlot {
 public:
     ScheduleSlot();
@@ -16,9 +22,5 @@ public:
     bool getIsBooked() const;
 
 private:
-    int m_id;
-    int m_trainerId;
-    int m_studentId;
-    QString m_dateTime;
-    bool m_isBooked;
+    ScheduleSlotBody* pImpl;
 };

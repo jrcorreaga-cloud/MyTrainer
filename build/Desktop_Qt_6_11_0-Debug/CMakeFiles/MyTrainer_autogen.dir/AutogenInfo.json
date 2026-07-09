@@ -93,11 +93,11 @@
 		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake",
 		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in",
 		"/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
 		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -158,47 +158,6 @@
 		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake",
 		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake",
 		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake",
-		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
-		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargetsPrecheck.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake",
-		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
-		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargetsPrecheck.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargetsPrecheck.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargetsPrecheck.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake",
 		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake",
 		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake",
@@ -209,6 +168,10 @@
 		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargetsPrecheck.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargetsPrecheck.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake",
@@ -258,6 +221,10 @@
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargetsPrecheck.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargetsPrecheck.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake",
@@ -538,6 +505,39 @@
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Gui/Qt6VulkanServerBufferPluginTargets-relwithdebinfo.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Gui/Qt6VulkanServerBufferPluginAdditionalTargetInfo.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake",
+		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
+		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargetsPrecheck.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake",
+		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
+		"/home/jordan13/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargetsPrecheck.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargetsPrecheck.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargetsPrecheck.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake",
+		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargetsPrecheck.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
 		"/home/jordan13/Qt/6.11.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake",
@@ -599,114 +599,6 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.h",
-			"MU",
-			"WA4DACW753/moc_Plan.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Role.h",
-			"MU",
-			"WA4DACW753/moc_Role.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.h",
-			"MU",
-			"WA4DACW753/moc_ScheduleSlot.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.h",
-			"MU",
-			"WA4DACW753/moc_User.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.h",
-			"MU",
-			"JEFYWV5TFH/moc_AdminService.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.h",
-			"MU",
-			"JEFYWV5TFH/moc_AuthService.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAdminService.h",
-			"MU",
-			"JEFYWV5TFH/moc_IAdminService.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IAuthService.h",
-			"MU",
-			"JEFYWV5TFH/moc_IAuthService.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IPlanService.h",
-			"MU",
-			"JEFYWV5TFH/moc_IPlanService.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/IScheduleService.h",
-			"MU",
-			"JEFYWV5TFH/moc_IScheduleService.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.h",
-			"MU",
-			"JEFYWV5TFH/moc_PlanService.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.h",
-			"MU",
-			"JEFYWV5TFH/moc_ScheduleService.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IPlanRepository.h",
-			"MU",
-			"3M3VFWVXBJ/moc_IPlanRepository.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IScheduleRepository.h",
-			"MU",
-			"3M3VFWVXBJ/moc_IScheduleRepository.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/IUserRepository.h",
-			"MU",
-			"3M3VFWVXBJ/moc_IUserRepository.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.h",
-			"MU",
-			"3M3VFWVXBJ/moc_PlanRepository.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.h",
-			"MU",
-			"3M3VFWVXBJ/moc_ScheduleRepository.cpp",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.h",
-			"MU",
-			"3M3VFWVXBJ/moc_UserRepository.cpp",
-			null
-		],
-		[
 			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.h",
 			"MU",
 			"KJRI3GH6ZS/moc_BookClassView.cpp",
@@ -762,11 +654,12 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets",
-		"/home/jordan13/Qt/6.11.0/gcc_64/include",
+		"/home/jordan13/Escritorio/MyTrainer/src",
 		"/home/jordan13/Qt/6.11.0/gcc_64/include/QtCore",
+		"/home/jordan13/Qt/6.11.0/gcc_64/include",
 		"/home/jordan13/Qt/6.11.0/gcc_64/mkspecs/linux-g++",
 		"/home/jordan13/Qt/6.11.0/gcc_64/include/QtGui",
+		"/home/jordan13/Qt/6.11.0/gcc_64/include/QtWidgets",
 		"/usr/include",
 		"/usr/include/c++/13",
 		"/usr/include/x86_64-linux-gnu/c++/13",
@@ -797,7 +690,10 @@
 	],
 	"MOC_PREDEFS_FILE" : "/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/MyTrainer_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : 
+	[
+		"/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CoreLib_autogen/mocs_compilation.cpp"
+	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
 	"PARSE_CACHE_FILE" : "/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles/MyTrainer_autogen.dir/ParseCache.txt",
@@ -808,57 +704,7 @@
 	"SETTINGS_FILE" : "/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CMakeFiles/MyTrainer_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Plan.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/ScheduleSlot.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/models/User.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AdminService.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/AuthService.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/PlanService.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/business_logic/services/ScheduleService.cpp",
-			"MU",
-			null
-		],
 		[ "/home/jordan13/Escritorio/MyTrainer/src/main.cpp", "MU", null ],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/PlanRepository.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/ScheduleRepository.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/jordan13/Escritorio/MyTrainer/src/persistence/repositories/UserRepository.cpp",
-			"MU",
-			null
-		],
 		[
 			"/home/jordan13/Escritorio/MyTrainer/src/presentation/views/BookClassView.cpp",
 			"MU",
@@ -897,7 +743,10 @@
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/jordan13/Escritorio/MyTrainer/build/Desktop_Qt_6_11_0-Debug/CoreLib_autogen/mocs_compilation.cpp"
+	],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : true,
 	"VERBOSITY" : 0

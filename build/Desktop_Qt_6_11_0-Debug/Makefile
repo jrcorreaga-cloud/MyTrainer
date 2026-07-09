@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CoreLib
+
+# Build rule for target.
+CoreLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CoreLib
+.PHONY : CoreLib
+
+# fast build rule for target.
+CoreLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/build
+.PHONY : CoreLib/fast
+
+#=============================================================================
 # Target rules for targets named MyTrainer
 
 # Build rule for target.
@@ -128,6 +141,58 @@ MyTrainer: cmake_check_build_system
 MyTrainer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/build
 .PHONY : MyTrainer/fast
+
+#=============================================================================
+# Target rules for targets named unit_tests
+
+# Build rule for target.
+unit_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unit_tests
+.PHONY : unit_tests
+
+# fast build rule for target.
+unit_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/build
+.PHONY : unit_tests/fast
+
+#=============================================================================
+# Target rules for targets named funcional_tests
+
+# Build rule for target.
+funcional_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 funcional_tests
+.PHONY : funcional_tests
+
+# fast build rule for target.
+funcional_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/build
+.PHONY : funcional_tests/fast
+
+#=============================================================================
+# Target rules for targets named CoreLib_autogen_timestamp_deps
+
+# Build rule for target.
+CoreLib_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CoreLib_autogen_timestamp_deps
+.PHONY : CoreLib_autogen_timestamp_deps
+
+# fast build rule for target.
+CoreLib_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib_autogen_timestamp_deps.dir/build.make CMakeFiles/CoreLib_autogen_timestamp_deps.dir/build
+.PHONY : CoreLib_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named CoreLib_autogen
+
+# Build rule for target.
+CoreLib_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CoreLib_autogen
+.PHONY : CoreLib_autogen
+
+# fast build rule for target.
+CoreLib_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib_autogen.dir/build.make CMakeFiles/CoreLib_autogen.dir/build
+.PHONY : CoreLib_autogen/fast
 
 #=============================================================================
 # Target rules for targets named MyTrainer_autogen_timestamp_deps
@@ -155,6 +220,82 @@ MyTrainer_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer_autogen.dir/build.make CMakeFiles/MyTrainer_autogen.dir/build
 .PHONY : MyTrainer_autogen/fast
 
+#=============================================================================
+# Target rules for targets named unit_tests_autogen_timestamp_deps
+
+# Build rule for target.
+unit_tests_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unit_tests_autogen_timestamp_deps
+.PHONY : unit_tests_autogen_timestamp_deps
+
+# fast build rule for target.
+unit_tests_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests_autogen_timestamp_deps.dir/build.make CMakeFiles/unit_tests_autogen_timestamp_deps.dir/build
+.PHONY : unit_tests_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named unit_tests_autogen
+
+# Build rule for target.
+unit_tests_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unit_tests_autogen
+.PHONY : unit_tests_autogen
+
+# fast build rule for target.
+unit_tests_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests_autogen.dir/build.make CMakeFiles/unit_tests_autogen.dir/build
+.PHONY : unit_tests_autogen/fast
+
+#=============================================================================
+# Target rules for targets named funcional_tests_autogen_timestamp_deps
+
+# Build rule for target.
+funcional_tests_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 funcional_tests_autogen_timestamp_deps
+.PHONY : funcional_tests_autogen_timestamp_deps
+
+# fast build rule for target.
+funcional_tests_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests_autogen_timestamp_deps.dir/build.make CMakeFiles/funcional_tests_autogen_timestamp_deps.dir/build
+.PHONY : funcional_tests_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named funcional_tests_autogen
+
+# Build rule for target.
+funcional_tests_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 funcional_tests_autogen
+.PHONY : funcional_tests_autogen
+
+# fast build rule for target.
+funcional_tests_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests_autogen.dir/build.make CMakeFiles/funcional_tests_autogen.dir/build
+.PHONY : funcional_tests_autogen/fast
+
+CoreLib_autogen/mocs_compilation.o: CoreLib_autogen/mocs_compilation.cpp.o
+.PHONY : CoreLib_autogen/mocs_compilation.o
+
+# target to build an object file
+CoreLib_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/CoreLib_autogen/mocs_compilation.cpp.o
+.PHONY : CoreLib_autogen/mocs_compilation.cpp.o
+
+CoreLib_autogen/mocs_compilation.i: CoreLib_autogen/mocs_compilation.cpp.i
+.PHONY : CoreLib_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+CoreLib_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/CoreLib_autogen/mocs_compilation.cpp.i
+.PHONY : CoreLib_autogen/mocs_compilation.cpp.i
+
+CoreLib_autogen/mocs_compilation.s: CoreLib_autogen/mocs_compilation.cpp.s
+.PHONY : CoreLib_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+CoreLib_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/CoreLib_autogen/mocs_compilation.cpp.s
+.PHONY : CoreLib_autogen/mocs_compilation.cpp.s
+
 MyTrainer_autogen/mocs_compilation.o: MyTrainer_autogen/mocs_compilation.cpp.o
 .PHONY : MyTrainer_autogen/mocs_compilation.o
 
@@ -179,12 +320,60 @@ MyTrainer_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.s
 .PHONY : MyTrainer_autogen/mocs_compilation.cpp.s
 
+funcional_tests_autogen/mocs_compilation.o: funcional_tests_autogen/mocs_compilation.cpp.o
+.PHONY : funcional_tests_autogen/mocs_compilation.o
+
+# target to build an object file
+funcional_tests_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/funcional_tests_autogen/mocs_compilation.cpp.o
+.PHONY : funcional_tests_autogen/mocs_compilation.cpp.o
+
+funcional_tests_autogen/mocs_compilation.i: funcional_tests_autogen/mocs_compilation.cpp.i
+.PHONY : funcional_tests_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+funcional_tests_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/funcional_tests_autogen/mocs_compilation.cpp.i
+.PHONY : funcional_tests_autogen/mocs_compilation.cpp.i
+
+funcional_tests_autogen/mocs_compilation.s: funcional_tests_autogen/mocs_compilation.cpp.s
+.PHONY : funcional_tests_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+funcional_tests_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/funcional_tests_autogen/mocs_compilation.cpp.s
+.PHONY : funcional_tests_autogen/mocs_compilation.cpp.s
+
+src/business_logic/models/ModelFactory.o: src/business_logic/models/ModelFactory.cpp.o
+.PHONY : src/business_logic/models/ModelFactory.o
+
+# target to build an object file
+src/business_logic/models/ModelFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/models/ModelFactory.cpp.o
+.PHONY : src/business_logic/models/ModelFactory.cpp.o
+
+src/business_logic/models/ModelFactory.i: src/business_logic/models/ModelFactory.cpp.i
+.PHONY : src/business_logic/models/ModelFactory.i
+
+# target to preprocess a source file
+src/business_logic/models/ModelFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/models/ModelFactory.cpp.i
+.PHONY : src/business_logic/models/ModelFactory.cpp.i
+
+src/business_logic/models/ModelFactory.s: src/business_logic/models/ModelFactory.cpp.s
+.PHONY : src/business_logic/models/ModelFactory.s
+
+# target to generate assembly for a file
+src/business_logic/models/ModelFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/models/ModelFactory.cpp.s
+.PHONY : src/business_logic/models/ModelFactory.cpp.s
+
 src/business_logic/models/Plan.o: src/business_logic/models/Plan.cpp.o
 .PHONY : src/business_logic/models/Plan.o
 
 # target to build an object file
 src/business_logic/models/Plan.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/models/Plan.cpp.o
 .PHONY : src/business_logic/models/Plan.cpp.o
 
 src/business_logic/models/Plan.i: src/business_logic/models/Plan.cpp.i
@@ -192,7 +381,7 @@ src/business_logic/models/Plan.i: src/business_logic/models/Plan.cpp.i
 
 # target to preprocess a source file
 src/business_logic/models/Plan.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/models/Plan.cpp.i
 .PHONY : src/business_logic/models/Plan.cpp.i
 
 src/business_logic/models/Plan.s: src/business_logic/models/Plan.cpp.s
@@ -200,7 +389,7 @@ src/business_logic/models/Plan.s: src/business_logic/models/Plan.cpp.s
 
 # target to generate assembly for a file
 src/business_logic/models/Plan.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/Plan.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/models/Plan.cpp.s
 .PHONY : src/business_logic/models/Plan.cpp.s
 
 src/business_logic/models/ScheduleSlot.o: src/business_logic/models/ScheduleSlot.cpp.o
@@ -208,7 +397,7 @@ src/business_logic/models/ScheduleSlot.o: src/business_logic/models/ScheduleSlot
 
 # target to build an object file
 src/business_logic/models/ScheduleSlot.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/models/ScheduleSlot.cpp.o
 .PHONY : src/business_logic/models/ScheduleSlot.cpp.o
 
 src/business_logic/models/ScheduleSlot.i: src/business_logic/models/ScheduleSlot.cpp.i
@@ -216,7 +405,7 @@ src/business_logic/models/ScheduleSlot.i: src/business_logic/models/ScheduleSlot
 
 # target to preprocess a source file
 src/business_logic/models/ScheduleSlot.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/models/ScheduleSlot.cpp.i
 .PHONY : src/business_logic/models/ScheduleSlot.cpp.i
 
 src/business_logic/models/ScheduleSlot.s: src/business_logic/models/ScheduleSlot.cpp.s
@@ -224,7 +413,7 @@ src/business_logic/models/ScheduleSlot.s: src/business_logic/models/ScheduleSlot
 
 # target to generate assembly for a file
 src/business_logic/models/ScheduleSlot.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/ScheduleSlot.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/models/ScheduleSlot.cpp.s
 .PHONY : src/business_logic/models/ScheduleSlot.cpp.s
 
 src/business_logic/models/User.o: src/business_logic/models/User.cpp.o
@@ -232,7 +421,7 @@ src/business_logic/models/User.o: src/business_logic/models/User.cpp.o
 
 # target to build an object file
 src/business_logic/models/User.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/models/User.cpp.o
 .PHONY : src/business_logic/models/User.cpp.o
 
 src/business_logic/models/User.i: src/business_logic/models/User.cpp.i
@@ -240,7 +429,7 @@ src/business_logic/models/User.i: src/business_logic/models/User.cpp.i
 
 # target to preprocess a source file
 src/business_logic/models/User.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/models/User.cpp.i
 .PHONY : src/business_logic/models/User.cpp.i
 
 src/business_logic/models/User.s: src/business_logic/models/User.cpp.s
@@ -248,7 +437,7 @@ src/business_logic/models/User.s: src/business_logic/models/User.cpp.s
 
 # target to generate assembly for a file
 src/business_logic/models/User.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/models/User.cpp.s
 .PHONY : src/business_logic/models/User.cpp.s
 
 src/business_logic/services/AdminService.o: src/business_logic/services/AdminService.cpp.o
@@ -256,7 +445,7 @@ src/business_logic/services/AdminService.o: src/business_logic/services/AdminSer
 
 # target to build an object file
 src/business_logic/services/AdminService.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/AdminService.cpp.o
 .PHONY : src/business_logic/services/AdminService.cpp.o
 
 src/business_logic/services/AdminService.i: src/business_logic/services/AdminService.cpp.i
@@ -264,7 +453,7 @@ src/business_logic/services/AdminService.i: src/business_logic/services/AdminSer
 
 # target to preprocess a source file
 src/business_logic/services/AdminService.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/AdminService.cpp.i
 .PHONY : src/business_logic/services/AdminService.cpp.i
 
 src/business_logic/services/AdminService.s: src/business_logic/services/AdminService.cpp.s
@@ -272,7 +461,7 @@ src/business_logic/services/AdminService.s: src/business_logic/services/AdminSer
 
 # target to generate assembly for a file
 src/business_logic/services/AdminService.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/AdminService.cpp.s
 .PHONY : src/business_logic/services/AdminService.cpp.s
 
 src/business_logic/services/AuthService.o: src/business_logic/services/AuthService.cpp.o
@@ -280,7 +469,7 @@ src/business_logic/services/AuthService.o: src/business_logic/services/AuthServi
 
 # target to build an object file
 src/business_logic/services/AuthService.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/AuthService.cpp.o
 .PHONY : src/business_logic/services/AuthService.cpp.o
 
 src/business_logic/services/AuthService.i: src/business_logic/services/AuthService.cpp.i
@@ -288,7 +477,7 @@ src/business_logic/services/AuthService.i: src/business_logic/services/AuthServi
 
 # target to preprocess a source file
 src/business_logic/services/AuthService.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/AuthService.cpp.i
 .PHONY : src/business_logic/services/AuthService.cpp.i
 
 src/business_logic/services/AuthService.s: src/business_logic/services/AuthService.cpp.s
@@ -296,7 +485,7 @@ src/business_logic/services/AuthService.s: src/business_logic/services/AuthServi
 
 # target to generate assembly for a file
 src/business_logic/services/AuthService.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/AuthService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/AuthService.cpp.s
 .PHONY : src/business_logic/services/AuthService.cpp.s
 
 src/business_logic/services/PlanService.o: src/business_logic/services/PlanService.cpp.o
@@ -304,7 +493,7 @@ src/business_logic/services/PlanService.o: src/business_logic/services/PlanServi
 
 # target to build an object file
 src/business_logic/services/PlanService.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/PlanService.cpp.o
 .PHONY : src/business_logic/services/PlanService.cpp.o
 
 src/business_logic/services/PlanService.i: src/business_logic/services/PlanService.cpp.i
@@ -312,7 +501,7 @@ src/business_logic/services/PlanService.i: src/business_logic/services/PlanServi
 
 # target to preprocess a source file
 src/business_logic/services/PlanService.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/PlanService.cpp.i
 .PHONY : src/business_logic/services/PlanService.cpp.i
 
 src/business_logic/services/PlanService.s: src/business_logic/services/PlanService.cpp.s
@@ -320,7 +509,7 @@ src/business_logic/services/PlanService.s: src/business_logic/services/PlanServi
 
 # target to generate assembly for a file
 src/business_logic/services/PlanService.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/PlanService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/PlanService.cpp.s
 .PHONY : src/business_logic/services/PlanService.cpp.s
 
 src/business_logic/services/ScheduleService.o: src/business_logic/services/ScheduleService.cpp.o
@@ -328,7 +517,7 @@ src/business_logic/services/ScheduleService.o: src/business_logic/services/Sched
 
 # target to build an object file
 src/business_logic/services/ScheduleService.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/ScheduleService.cpp.o
 .PHONY : src/business_logic/services/ScheduleService.cpp.o
 
 src/business_logic/services/ScheduleService.i: src/business_logic/services/ScheduleService.cpp.i
@@ -336,7 +525,7 @@ src/business_logic/services/ScheduleService.i: src/business_logic/services/Sched
 
 # target to preprocess a source file
 src/business_logic/services/ScheduleService.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/ScheduleService.cpp.i
 .PHONY : src/business_logic/services/ScheduleService.cpp.i
 
 src/business_logic/services/ScheduleService.s: src/business_logic/services/ScheduleService.cpp.s
@@ -344,7 +533,7 @@ src/business_logic/services/ScheduleService.s: src/business_logic/services/Sched
 
 # target to generate assembly for a file
 src/business_logic/services/ScheduleService.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/business_logic/services/ScheduleService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/ScheduleService.cpp.s
 .PHONY : src/business_logic/services/ScheduleService.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -376,7 +565,7 @@ src/persistence/repositories/PlanRepository.o: src/persistence/repositories/Plan
 
 # target to build an object file
 src/persistence/repositories/PlanRepository.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/persistence/repositories/PlanRepository.cpp.o
 .PHONY : src/persistence/repositories/PlanRepository.cpp.o
 
 src/persistence/repositories/PlanRepository.i: src/persistence/repositories/PlanRepository.cpp.i
@@ -384,7 +573,7 @@ src/persistence/repositories/PlanRepository.i: src/persistence/repositories/Plan
 
 # target to preprocess a source file
 src/persistence/repositories/PlanRepository.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/persistence/repositories/PlanRepository.cpp.i
 .PHONY : src/persistence/repositories/PlanRepository.cpp.i
 
 src/persistence/repositories/PlanRepository.s: src/persistence/repositories/PlanRepository.cpp.s
@@ -392,7 +581,7 @@ src/persistence/repositories/PlanRepository.s: src/persistence/repositories/Plan
 
 # target to generate assembly for a file
 src/persistence/repositories/PlanRepository.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/PlanRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/persistence/repositories/PlanRepository.cpp.s
 .PHONY : src/persistence/repositories/PlanRepository.cpp.s
 
 src/persistence/repositories/ScheduleRepository.o: src/persistence/repositories/ScheduleRepository.cpp.o
@@ -400,7 +589,7 @@ src/persistence/repositories/ScheduleRepository.o: src/persistence/repositories/
 
 # target to build an object file
 src/persistence/repositories/ScheduleRepository.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/persistence/repositories/ScheduleRepository.cpp.o
 .PHONY : src/persistence/repositories/ScheduleRepository.cpp.o
 
 src/persistence/repositories/ScheduleRepository.i: src/persistence/repositories/ScheduleRepository.cpp.i
@@ -408,7 +597,7 @@ src/persistence/repositories/ScheduleRepository.i: src/persistence/repositories/
 
 # target to preprocess a source file
 src/persistence/repositories/ScheduleRepository.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/persistence/repositories/ScheduleRepository.cpp.i
 .PHONY : src/persistence/repositories/ScheduleRepository.cpp.i
 
 src/persistence/repositories/ScheduleRepository.s: src/persistence/repositories/ScheduleRepository.cpp.s
@@ -416,7 +605,7 @@ src/persistence/repositories/ScheduleRepository.s: src/persistence/repositories/
 
 # target to generate assembly for a file
 src/persistence/repositories/ScheduleRepository.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/ScheduleRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/persistence/repositories/ScheduleRepository.cpp.s
 .PHONY : src/persistence/repositories/ScheduleRepository.cpp.s
 
 src/persistence/repositories/UserRepository.o: src/persistence/repositories/UserRepository.cpp.o
@@ -424,7 +613,7 @@ src/persistence/repositories/UserRepository.o: src/persistence/repositories/User
 
 # target to build an object file
 src/persistence/repositories/UserRepository.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/persistence/repositories/UserRepository.cpp.o
 .PHONY : src/persistence/repositories/UserRepository.cpp.o
 
 src/persistence/repositories/UserRepository.i: src/persistence/repositories/UserRepository.cpp.i
@@ -432,7 +621,7 @@ src/persistence/repositories/UserRepository.i: src/persistence/repositories/User
 
 # target to preprocess a source file
 src/persistence/repositories/UserRepository.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/persistence/repositories/UserRepository.cpp.i
 .PHONY : src/persistence/repositories/UserRepository.cpp.i
 
 src/persistence/repositories/UserRepository.s: src/persistence/repositories/UserRepository.cpp.s
@@ -440,7 +629,7 @@ src/persistence/repositories/UserRepository.s: src/persistence/repositories/User
 
 # target to generate assembly for a file
 src/persistence/repositories/UserRepository.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/persistence/repositories/UserRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/persistence/repositories/UserRepository.cpp.s
 .PHONY : src/persistence/repositories/UserRepository.cpp.s
 
 src/presentation/views/BookClassView.o: src/presentation/views/BookClassView.cpp.o
@@ -449,6 +638,7 @@ src/presentation/views/BookClassView.o: src/presentation/views/BookClassView.cpp
 # target to build an object file
 src/presentation/views/BookClassView.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/BookClassView.cpp.o
 .PHONY : src/presentation/views/BookClassView.cpp.o
 
 src/presentation/views/BookClassView.i: src/presentation/views/BookClassView.cpp.i
@@ -457,6 +647,7 @@ src/presentation/views/BookClassView.i: src/presentation/views/BookClassView.cpp
 # target to preprocess a source file
 src/presentation/views/BookClassView.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/BookClassView.cpp.i
 .PHONY : src/presentation/views/BookClassView.cpp.i
 
 src/presentation/views/BookClassView.s: src/presentation/views/BookClassView.cpp.s
@@ -465,6 +656,7 @@ src/presentation/views/BookClassView.s: src/presentation/views/BookClassView.cpp
 # target to generate assembly for a file
 src/presentation/views/BookClassView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/BookClassView.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/BookClassView.cpp.s
 .PHONY : src/presentation/views/BookClassView.cpp.s
 
 src/presentation/views/CreatePlanView.o: src/presentation/views/CreatePlanView.cpp.o
@@ -473,6 +665,7 @@ src/presentation/views/CreatePlanView.o: src/presentation/views/CreatePlanView.c
 # target to build an object file
 src/presentation/views/CreatePlanView.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/CreatePlanView.cpp.o
 .PHONY : src/presentation/views/CreatePlanView.cpp.o
 
 src/presentation/views/CreatePlanView.i: src/presentation/views/CreatePlanView.cpp.i
@@ -481,6 +674,7 @@ src/presentation/views/CreatePlanView.i: src/presentation/views/CreatePlanView.c
 # target to preprocess a source file
 src/presentation/views/CreatePlanView.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/CreatePlanView.cpp.i
 .PHONY : src/presentation/views/CreatePlanView.cpp.i
 
 src/presentation/views/CreatePlanView.s: src/presentation/views/CreatePlanView.cpp.s
@@ -489,6 +683,7 @@ src/presentation/views/CreatePlanView.s: src/presentation/views/CreatePlanView.c
 # target to generate assembly for a file
 src/presentation/views/CreatePlanView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/CreatePlanView.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/CreatePlanView.cpp.s
 .PHONY : src/presentation/views/CreatePlanView.cpp.s
 
 src/presentation/views/DashboardView.o: src/presentation/views/DashboardView.cpp.o
@@ -497,6 +692,7 @@ src/presentation/views/DashboardView.o: src/presentation/views/DashboardView.cpp
 # target to build an object file
 src/presentation/views/DashboardView.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/DashboardView.cpp.o
 .PHONY : src/presentation/views/DashboardView.cpp.o
 
 src/presentation/views/DashboardView.i: src/presentation/views/DashboardView.cpp.i
@@ -505,6 +701,7 @@ src/presentation/views/DashboardView.i: src/presentation/views/DashboardView.cpp
 # target to preprocess a source file
 src/presentation/views/DashboardView.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/DashboardView.cpp.i
 .PHONY : src/presentation/views/DashboardView.cpp.i
 
 src/presentation/views/DashboardView.s: src/presentation/views/DashboardView.cpp.s
@@ -513,6 +710,7 @@ src/presentation/views/DashboardView.s: src/presentation/views/DashboardView.cpp
 # target to generate assembly for a file
 src/presentation/views/DashboardView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/DashboardView.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/DashboardView.cpp.s
 .PHONY : src/presentation/views/DashboardView.cpp.s
 
 src/presentation/views/LoginView.o: src/presentation/views/LoginView.cpp.o
@@ -521,6 +719,7 @@ src/presentation/views/LoginView.o: src/presentation/views/LoginView.cpp.o
 # target to build an object file
 src/presentation/views/LoginView.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/LoginView.cpp.o
 .PHONY : src/presentation/views/LoginView.cpp.o
 
 src/presentation/views/LoginView.i: src/presentation/views/LoginView.cpp.i
@@ -529,6 +728,7 @@ src/presentation/views/LoginView.i: src/presentation/views/LoginView.cpp.i
 # target to preprocess a source file
 src/presentation/views/LoginView.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/LoginView.cpp.i
 .PHONY : src/presentation/views/LoginView.cpp.i
 
 src/presentation/views/LoginView.s: src/presentation/views/LoginView.cpp.s
@@ -537,6 +737,7 @@ src/presentation/views/LoginView.s: src/presentation/views/LoginView.cpp.s
 # target to generate assembly for a file
 src/presentation/views/LoginView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/LoginView.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/LoginView.cpp.s
 .PHONY : src/presentation/views/LoginView.cpp.s
 
 src/presentation/views/RegisterStudentView.o: src/presentation/views/RegisterStudentView.cpp.o
@@ -545,6 +746,7 @@ src/presentation/views/RegisterStudentView.o: src/presentation/views/RegisterStu
 # target to build an object file
 src/presentation/views/RegisterStudentView.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/RegisterStudentView.cpp.o
 .PHONY : src/presentation/views/RegisterStudentView.cpp.o
 
 src/presentation/views/RegisterStudentView.i: src/presentation/views/RegisterStudentView.cpp.i
@@ -553,6 +755,7 @@ src/presentation/views/RegisterStudentView.i: src/presentation/views/RegisterStu
 # target to preprocess a source file
 src/presentation/views/RegisterStudentView.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/RegisterStudentView.cpp.i
 .PHONY : src/presentation/views/RegisterStudentView.cpp.i
 
 src/presentation/views/RegisterStudentView.s: src/presentation/views/RegisterStudentView.cpp.s
@@ -561,6 +764,7 @@ src/presentation/views/RegisterStudentView.s: src/presentation/views/RegisterStu
 # target to generate assembly for a file
 src/presentation/views/RegisterStudentView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterStudentView.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/RegisterStudentView.cpp.s
 .PHONY : src/presentation/views/RegisterStudentView.cpp.s
 
 src/presentation/views/RegisterTrainerView.o: src/presentation/views/RegisterTrainerView.cpp.o
@@ -569,6 +773,7 @@ src/presentation/views/RegisterTrainerView.o: src/presentation/views/RegisterTra
 # target to build an object file
 src/presentation/views/RegisterTrainerView.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/RegisterTrainerView.cpp.o
 .PHONY : src/presentation/views/RegisterTrainerView.cpp.o
 
 src/presentation/views/RegisterTrainerView.i: src/presentation/views/RegisterTrainerView.cpp.i
@@ -577,6 +782,7 @@ src/presentation/views/RegisterTrainerView.i: src/presentation/views/RegisterTra
 # target to preprocess a source file
 src/presentation/views/RegisterTrainerView.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/RegisterTrainerView.cpp.i
 .PHONY : src/presentation/views/RegisterTrainerView.cpp.i
 
 src/presentation/views/RegisterTrainerView.s: src/presentation/views/RegisterTrainerView.cpp.s
@@ -585,6 +791,7 @@ src/presentation/views/RegisterTrainerView.s: src/presentation/views/RegisterTra
 # target to generate assembly for a file
 src/presentation/views/RegisterTrainerView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/RegisterTrainerView.cpp.s
 .PHONY : src/presentation/views/RegisterTrainerView.cpp.s
 
 src/presentation/views/ScheduleView.o: src/presentation/views/ScheduleView.cpp.o
@@ -593,6 +800,7 @@ src/presentation/views/ScheduleView.o: src/presentation/views/ScheduleView.cpp.o
 # target to build an object file
 src/presentation/views/ScheduleView.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/ScheduleView.cpp.o
 .PHONY : src/presentation/views/ScheduleView.cpp.o
 
 src/presentation/views/ScheduleView.i: src/presentation/views/ScheduleView.cpp.i
@@ -601,6 +809,7 @@ src/presentation/views/ScheduleView.i: src/presentation/views/ScheduleView.cpp.i
 # target to preprocess a source file
 src/presentation/views/ScheduleView.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/ScheduleView.cpp.i
 .PHONY : src/presentation/views/ScheduleView.cpp.i
 
 src/presentation/views/ScheduleView.s: src/presentation/views/ScheduleView.cpp.s
@@ -609,7 +818,128 @@ src/presentation/views/ScheduleView.s: src/presentation/views/ScheduleView.cpp.s
 # target to generate assembly for a file
 src/presentation/views/ScheduleView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTrainer.dir/build.make CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/src/presentation/views/ScheduleView.cpp.s
 .PHONY : src/presentation/views/ScheduleView.cpp.s
+
+test/funcional/funcional_tests.o: test/funcional/funcional_tests.cpp.o
+.PHONY : test/funcional/funcional_tests.o
+
+# target to build an object file
+test/funcional/funcional_tests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/test/funcional/funcional_tests.cpp.o
+.PHONY : test/funcional/funcional_tests.cpp.o
+
+test/funcional/funcional_tests.i: test/funcional/funcional_tests.cpp.i
+.PHONY : test/funcional/funcional_tests.i
+
+# target to preprocess a source file
+test/funcional/funcional_tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/test/funcional/funcional_tests.cpp.i
+.PHONY : test/funcional/funcional_tests.cpp.i
+
+test/funcional/funcional_tests.s: test/funcional/funcional_tests.cpp.s
+.PHONY : test/funcional/funcional_tests.s
+
+# target to generate assembly for a file
+test/funcional/funcional_tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/test/funcional/funcional_tests.cpp.s
+.PHONY : test/funcional/funcional_tests.cpp.s
+
+test/funcional/main.o: test/funcional/main.cpp.o
+.PHONY : test/funcional/main.o
+
+# target to build an object file
+test/funcional/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/test/funcional/main.cpp.o
+.PHONY : test/funcional/main.cpp.o
+
+test/funcional/main.i: test/funcional/main.cpp.i
+.PHONY : test/funcional/main.i
+
+# target to preprocess a source file
+test/funcional/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/test/funcional/main.cpp.i
+.PHONY : test/funcional/main.cpp.i
+
+test/funcional/main.s: test/funcional/main.cpp.s
+.PHONY : test/funcional/main.s
+
+# target to generate assembly for a file
+test/funcional/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funcional_tests.dir/build.make CMakeFiles/funcional_tests.dir/test/funcional/main.cpp.s
+.PHONY : test/funcional/main.cpp.s
+
+test/unit/main.o: test/unit/main.cpp.o
+.PHONY : test/unit/main.o
+
+# target to build an object file
+test/unit/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/test/unit/main.cpp.o
+.PHONY : test/unit/main.cpp.o
+
+test/unit/main.i: test/unit/main.cpp.i
+.PHONY : test/unit/main.i
+
+# target to preprocess a source file
+test/unit/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/test/unit/main.cpp.i
+.PHONY : test/unit/main.cpp.i
+
+test/unit/main.s: test/unit/main.cpp.s
+.PHONY : test/unit/main.s
+
+# target to generate assembly for a file
+test/unit/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/test/unit/main.cpp.s
+.PHONY : test/unit/main.cpp.s
+
+test/unit/unit_tests.o: test/unit/unit_tests.cpp.o
+.PHONY : test/unit/unit_tests.o
+
+# target to build an object file
+test/unit/unit_tests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/test/unit/unit_tests.cpp.o
+.PHONY : test/unit/unit_tests.cpp.o
+
+test/unit/unit_tests.i: test/unit/unit_tests.cpp.i
+.PHONY : test/unit/unit_tests.i
+
+# target to preprocess a source file
+test/unit/unit_tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/test/unit/unit_tests.cpp.i
+.PHONY : test/unit/unit_tests.cpp.i
+
+test/unit/unit_tests.s: test/unit/unit_tests.cpp.s
+.PHONY : test/unit/unit_tests.s
+
+# target to generate assembly for a file
+test/unit/unit_tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/test/unit/unit_tests.cpp.s
+.PHONY : test/unit/unit_tests.cpp.s
+
+unit_tests_autogen/mocs_compilation.o: unit_tests_autogen/mocs_compilation.cpp.o
+.PHONY : unit_tests_autogen/mocs_compilation.o
+
+# target to build an object file
+unit_tests_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/unit_tests_autogen/mocs_compilation.cpp.o
+.PHONY : unit_tests_autogen/mocs_compilation.cpp.o
+
+unit_tests_autogen/mocs_compilation.i: unit_tests_autogen/mocs_compilation.cpp.i
+.PHONY : unit_tests_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+unit_tests_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/unit_tests_autogen/mocs_compilation.cpp.i
+.PHONY : unit_tests_autogen/mocs_compilation.cpp.i
+
+unit_tests_autogen/mocs_compilation.s: unit_tests_autogen/mocs_compilation.cpp.s
+.PHONY : unit_tests_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+unit_tests_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/unit_tests_autogen/mocs_compilation.cpp.s
+.PHONY : unit_tests_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -619,12 +949,30 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... CoreLib_autogen"
+	@echo "... CoreLib_autogen_timestamp_deps"
 	@echo "... MyTrainer_autogen"
 	@echo "... MyTrainer_autogen_timestamp_deps"
+	@echo "... funcional_tests_autogen"
+	@echo "... funcional_tests_autogen_timestamp_deps"
+	@echo "... unit_tests_autogen"
+	@echo "... unit_tests_autogen_timestamp_deps"
+	@echo "... CoreLib"
 	@echo "... MyTrainer"
+	@echo "... funcional_tests"
+	@echo "... unit_tests"
+	@echo "... CoreLib_autogen/mocs_compilation.o"
+	@echo "... CoreLib_autogen/mocs_compilation.i"
+	@echo "... CoreLib_autogen/mocs_compilation.s"
 	@echo "... MyTrainer_autogen/mocs_compilation.o"
 	@echo "... MyTrainer_autogen/mocs_compilation.i"
 	@echo "... MyTrainer_autogen/mocs_compilation.s"
+	@echo "... funcional_tests_autogen/mocs_compilation.o"
+	@echo "... funcional_tests_autogen/mocs_compilation.i"
+	@echo "... funcional_tests_autogen/mocs_compilation.s"
+	@echo "... src/business_logic/models/ModelFactory.o"
+	@echo "... src/business_logic/models/ModelFactory.i"
+	@echo "... src/business_logic/models/ModelFactory.s"
 	@echo "... src/business_logic/models/Plan.o"
 	@echo "... src/business_logic/models/Plan.i"
 	@echo "... src/business_logic/models/Plan.s"
@@ -679,6 +1027,21 @@ help:
 	@echo "... src/presentation/views/ScheduleView.o"
 	@echo "... src/presentation/views/ScheduleView.i"
 	@echo "... src/presentation/views/ScheduleView.s"
+	@echo "... test/funcional/funcional_tests.o"
+	@echo "... test/funcional/funcional_tests.i"
+	@echo "... test/funcional/funcional_tests.s"
+	@echo "... test/funcional/main.o"
+	@echo "... test/funcional/main.i"
+	@echo "... test/funcional/main.s"
+	@echo "... test/unit/main.o"
+	@echo "... test/unit/main.i"
+	@echo "... test/unit/main.s"
+	@echo "... test/unit/unit_tests.o"
+	@echo "... test/unit/unit_tests.i"
+	@echo "... test/unit/unit_tests.s"
+	@echo "... unit_tests_autogen/mocs_compilation.o"
+	@echo "... unit_tests_autogen/mocs_compilation.i"
+	@echo "... unit_tests_autogen/mocs_compilation.s"
 .PHONY : help
 
 

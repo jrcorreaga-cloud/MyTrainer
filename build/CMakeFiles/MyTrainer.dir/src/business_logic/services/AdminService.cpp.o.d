@@ -290,4 +290,6 @@ CMakeFiles/MyTrainer.dir/src/business_logic/services/AdminService.cpp.o: \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qstringconverter_base.h \
  /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/../../persistence/repositories/IUserRepository.h \
  /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/../../persistence/repositories/../../business_logic/models/User.h \
- /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/../../persistence/repositories/../../business_logic/models/Role.h
+ /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/../models/ModelFactory.h \
+ /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/../models/Plan.h \
+ /home/jordan13/Escritorio/MyTrainer/src/business_logic/services/../models/ScheduleSlot.h

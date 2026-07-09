@@ -286,5 +286,4 @@ CMakeFiles/MyTrainer.dir/src/business_logic/models/User.cpp.o: \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qstringtokenizer.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qstringbuilder.h \
  /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qstringconverter.h \
- /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qstringconverter_base.h \
- /home/jordan13/Escritorio/MyTrainer/src/business_logic/models/Role.h
+ /home/jordan13/Qt/6.11.0/gcc_64/include/QtCore/qstringconverter_base.h

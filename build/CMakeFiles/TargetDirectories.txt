@@ -1,5 +1,14 @@
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CoreLib.dir
 /home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/MyTrainer.dir
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/unit_tests.dir
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/funcional_tests.dir
 /home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/edit_cache.dir
 /home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/rebuild_cache.dir
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CoreLib_autogen_timestamp_deps.dir
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/CoreLib_autogen.dir
 /home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/MyTrainer_autogen_timestamp_deps.dir
 /home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/MyTrainer_autogen.dir
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/unit_tests_autogen_timestamp_deps.dir
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/unit_tests_autogen.dir
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/funcional_tests_autogen_timestamp_deps.dir
+/home/jordan13/Escritorio/MyTrainer/build/CMakeFiles/funcional_tests_autogen.dir
