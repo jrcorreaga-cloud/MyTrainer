@@ -20,17 +20,6 @@ public:
      */
     explicit AdminService(IUserRepository* userRepository);
 
-    /**
-     * @brief Executes registerTrainer operation.
-     * @return Result of the operation.
-     */
-    bool registerTrainer(const QString& email, const QString& password, const QString& specialties) override;
-    /**
-     * @brief Executes registerStudent operation.
-     * @return Result of the operation.
-     */
-    bool registerStudent(const QString& email, const QString& password) override;
-
 private:
     IUserRepository* m_userRepository;
 };
