@@ -4,7 +4,7 @@
 #include "../../src/persistence/repositories/ScheduleRepository.h"
 #include "../../src/business_logic/services/AuthService.h"
 #include "../../src/business_logic/services/AdminService.h"
-#include "../../src/business_logic/services/ScheduleService.h"
+#include "../../src/business_logic/services/SchedulingService.h"
 
 #define ASSERT_TRUE(condition, msg) \
     if (!(condition)) { std::cerr << "[FAIL] " << msg << std::endl; return false; } \
@@ -22,7 +22,7 @@ bool FuncionalTests::testFullBookingFlow() {
     UserRepository userRepo;
     ScheduleRepository scheduleRepo;
     AuthService authService(&userRepo);
-    ScheduleService scheduleService(&scheduleRepo);
+    SchedulingService scheduleService(&scheduleRepo);
 
     // 1. Login as existing student
     auto userOpt = authService.login("student@mytrainer.com", "student123");

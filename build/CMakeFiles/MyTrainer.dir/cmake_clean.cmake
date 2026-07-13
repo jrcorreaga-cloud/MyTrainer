@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MyTrainer.dir/link.d"
   "CMakeFiles/MyTrainer_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/MyTrainer_autogen.dir/ParseCache.txt"
   "MyTrainer_autogen"

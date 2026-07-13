@@ -6,7 +6,7 @@
 #include "business_logic/services/AuthService.h"
 #include "business_logic/services/AdminService.h"
 #include "business_logic/services/PlanService.h"
-#include "business_logic/services/ScheduleService.h"
+#include "business_logic/services/SchedulingService.h"
 #include "presentation/views/LoginView.h"
 #include "presentation/views/DashboardView.h"
 #include "presentation/views/RegisterTrainerView.h"

@@ -5,7 +5,7 @@
 #include "../../src/persistence/repositories/ScheduleRepository.h"
 #include "../../src/business_logic/services/AuthService.h"
 #include "../../src/business_logic/services/PlanService.h"
-#include "../../src/business_logic/services/ScheduleService.h"
+#include "../../src/business_logic/services/SchedulingService.h"
 #include "../../src/business_logic/models/ModelFactory.h"
 
 #define ASSERT_TRUE(condition, msg) \
@@ -44,7 +44,7 @@ bool UnitTests::testPlanService() {
 
 bool UnitTests::testScheduleService() {
     ScheduleRepository repo;
-    ScheduleService service(&repo);
+    SchedulingService service(&repo);
     auto initialSlots = service.getAvailableSlots();
     ASSERT_TRUE(initialSlots.size() > 0, "There should be initial available slots");
     

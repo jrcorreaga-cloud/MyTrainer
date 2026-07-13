@@ -9,7 +9,7 @@
 #include <QComboBox>
 #include <QPushButton>
 #include <QLabel>
-#include "../../business_logic/services/IScheduleService.h"
+#include "../../business_logic/services/ISchedulingService.h"
 
 /**
  * @class BookClassView
