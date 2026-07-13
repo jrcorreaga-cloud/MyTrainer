@@ -1,10 +1,10 @@
 #include "ScheduleService.h"
 #include "../models/ScheduleSlot.h"
 
-ScheduleService::ScheduleService(IScheduleRepository* scheduleRepository) 
+SchedulingService::SchedulingService(IScheduleRepository* scheduleRepository)
     : m_scheduleRepository(scheduleRepository) {}
 
-std::vector<QString> ScheduleService::getFormattedSchedule() {
+std::vector<QString> SchedulingService::getFormattedSchedule() {
     std::vector<QString> formatted;
     auto allSlots = m_scheduleRepository->getAllSlots();
     for (const auto& slot : allSlots) {
@@ -14,7 +14,7 @@ std::vector<QString> ScheduleService::getFormattedSchedule() {
     return formatted;
 }
 
-std::vector<ScheduleSlot> ScheduleService::getAvailableSlots() {
+std::vector<ScheduleSlot> SchedulingService::getAvailableSlots() {
     std::vector<ScheduleSlot> available;
     auto allSlots = m_scheduleRepository->getAllSlots();
     for (const auto& slot : allSlots) {
@@ -25,7 +25,7 @@ std::vector<ScheduleSlot> ScheduleService::getAvailableSlots() {
     return available;
 }
 
-bool ScheduleService::bookClass(int slotId, int studentId) {
+bool SchedulingService::bookClass(int slotId, int studentId) {
     if (slotId <= 0 || studentId <= 0) return false;
     return m_scheduleRepository->updateSlotBooking(slotId, studentId);
 }

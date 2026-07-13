@@ -23,7 +23,7 @@ public:
      * @brief Executes ScheduleView operation.
      * @return Result of the operation.
      */
-    explicit ScheduleView(IScheduleService* scheduleService, QWidget *parent = nullptr);
+    explicit ScheduleView(ISchedulingService* scheduleService, QWidget *parent = nullptr);
     /**
      * @brief Executes refreshSchedule operation.
      * @return Result of the operation.
@@ -50,7 +50,7 @@ private slots:
     void onRefreshClicked();
 
 private:
-    IScheduleService* m_scheduleService;
+    ISchedulingService* m_scheduleService;
     QListWidget* m_scheduleList;
     QPushButton* m_backButton;
     QPushButton* m_refreshButton;

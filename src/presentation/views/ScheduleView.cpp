@@ -1,7 +1,7 @@
 #include "ScheduleView.h"
 #include <QVBoxLayout>
 
-ScheduleView::ScheduleView(IScheduleService* scheduleService, QWidget *parent)
+ScheduleView::ScheduleView(ISchedulingService* scheduleService, QWidget *parent)
     : QWidget(parent), m_scheduleService(scheduleService) {
     setupUi();
 }

@@ -1,7 +1,7 @@
 #include "BookClassView.h"
 #include <QVBoxLayout>
 
-BookClassView::BookClassView(IScheduleService* scheduleService, QWidget *parent)
+BookClassView::BookClassView(ISchedulingService* scheduleService, QWidget *parent)
     : QWidget(parent), m_scheduleService(scheduleService), m_currentStudentId(-1) {
     setupUi();
 }

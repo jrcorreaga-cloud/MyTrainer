@@ -1,6 +1,6 @@
 /**
- * @file ScheduleService.h
- * @brief Core functionality for ScheduleService
+ * @file SchedulingService.h
+ * @brief Core functionality for SchedulingService
  */
 
 #pragma once
@@ -8,16 +8,16 @@
 #include "../../persistence/repositories/IScheduleRepository.h"
 
 /**
- * @class ScheduleService
- * @brief Main class for ScheduleService
+ * @class SchedulingService
+ * @brief Main class for SchedulingService
  */
-class ScheduleService : public IScheduleService {
+class SchedulingService : public ISchedulingService {
 public:
     /**
-     * @brief Executes ScheduleService operation.
+     * @brief Executes SchedulingService operation.
      * @return Result of the operation.
      */
-    explicit ScheduleService(IScheduleRepository* scheduleRepository);
+    explicit SchedulingService(IScheduleRepository* scheduleRepository);
     /**
      * @brief Executes getFormattedSchedule operation.
      * @return Result of the operation.

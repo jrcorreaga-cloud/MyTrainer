@@ -23,7 +23,7 @@ public:
      * @brief Executes BookClassView operation.
      * @return Result of the operation.
      */
-    explicit BookClassView(IScheduleService* scheduleService, QWidget *parent = nullptr);
+    explicit BookClassView(ISchedulingService* scheduleService, QWidget *parent = nullptr);
     /**
      * @brief Executes setCurrentStudentId operation.
      * @return Result of the operation.
@@ -55,7 +55,7 @@ private slots:
     void onBackClicked();
 
 private:
-    IScheduleService* m_scheduleService;
+    ISchedulingService* m_scheduleService;
     int m_currentStudentId;
     QComboBox* m_slotCombo;
     QPushButton* m_bookButton;

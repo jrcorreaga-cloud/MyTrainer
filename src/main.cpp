@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
     AuthService authService(&userRepository);
     AdminService adminService(&userRepository);
     PlanService planService(&planRepository);
-    ScheduleService scheduleService(&scheduleRepository);
+    SchedulingService scheduleService(&scheduleRepository);
 
     // UI Routing Setup
     QStackedWidget stackedWidget;
