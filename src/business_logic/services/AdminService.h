@@ -19,8 +19,6 @@ public:
      * @return Result of the operation.
      */
     explicit AdminService(IUserRepository* userRepository);
-    bool registerStudent(const QString& email, const QString& password) override;
-    bool registerTrainer(const QString& email, const QString& password, const QString& specialties) override;
 
 private:
     IUserRepository* m_userRepository;
