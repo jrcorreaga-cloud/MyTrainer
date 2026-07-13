@@ -512,29 +512,53 @@ src/business_logic/services/PlanService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/PlanService.cpp.s
 .PHONY : src/business_logic/services/PlanService.cpp.s
 
-src/business_logic/services/ScheduleService.o: src/business_logic/services/ScheduleService.cpp.o
-.PHONY : src/business_logic/services/ScheduleService.o
+src/business_logic/services/ReportService.o: src/business_logic/services/ReportService.cpp.o
+.PHONY : src/business_logic/services/ReportService.o
 
 # target to build an object file
-src/business_logic/services/ScheduleService.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/ScheduleService.cpp.o
-.PHONY : src/business_logic/services/ScheduleService.cpp.o
+src/business_logic/services/ReportService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/ReportService.cpp.o
+.PHONY : src/business_logic/services/ReportService.cpp.o
 
-src/business_logic/services/ScheduleService.i: src/business_logic/services/ScheduleService.cpp.i
-.PHONY : src/business_logic/services/ScheduleService.i
+src/business_logic/services/ReportService.i: src/business_logic/services/ReportService.cpp.i
+.PHONY : src/business_logic/services/ReportService.i
 
 # target to preprocess a source file
-src/business_logic/services/ScheduleService.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/ScheduleService.cpp.i
-.PHONY : src/business_logic/services/ScheduleService.cpp.i
+src/business_logic/services/ReportService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/ReportService.cpp.i
+.PHONY : src/business_logic/services/ReportService.cpp.i
 
-src/business_logic/services/ScheduleService.s: src/business_logic/services/ScheduleService.cpp.s
-.PHONY : src/business_logic/services/ScheduleService.s
+src/business_logic/services/ReportService.s: src/business_logic/services/ReportService.cpp.s
+.PHONY : src/business_logic/services/ReportService.s
 
 # target to generate assembly for a file
-src/business_logic/services/ScheduleService.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/ScheduleService.cpp.s
-.PHONY : src/business_logic/services/ScheduleService.cpp.s
+src/business_logic/services/ReportService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/ReportService.cpp.s
+.PHONY : src/business_logic/services/ReportService.cpp.s
+
+src/business_logic/services/SchedulingService.o: src/business_logic/services/SchedulingService.cpp.o
+.PHONY : src/business_logic/services/SchedulingService.o
+
+# target to build an object file
+src/business_logic/services/SchedulingService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/SchedulingService.cpp.o
+.PHONY : src/business_logic/services/SchedulingService.cpp.o
+
+src/business_logic/services/SchedulingService.i: src/business_logic/services/SchedulingService.cpp.i
+.PHONY : src/business_logic/services/SchedulingService.i
+
+# target to preprocess a source file
+src/business_logic/services/SchedulingService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/SchedulingService.cpp.i
+.PHONY : src/business_logic/services/SchedulingService.cpp.i
+
+src/business_logic/services/SchedulingService.s: src/business_logic/services/SchedulingService.cpp.s
+.PHONY : src/business_logic/services/SchedulingService.s
+
+# target to generate assembly for a file
+src/business_logic/services/SchedulingService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoreLib.dir/build.make CMakeFiles/CoreLib.dir/src/business_logic/services/SchedulingService.cpp.s
+.PHONY : src/business_logic/services/SchedulingService.cpp.s
 
 src/business_logic/services/UserService.o: src/business_logic/services/UserService.cpp.o
 .PHONY : src/business_logic/services/UserService.o
@@ -1015,9 +1039,12 @@ help:
 	@echo "... src/business_logic/services/PlanService.o"
 	@echo "... src/business_logic/services/PlanService.i"
 	@echo "... src/business_logic/services/PlanService.s"
-	@echo "... src/business_logic/services/ScheduleService.o"
-	@echo "... src/business_logic/services/ScheduleService.i"
-	@echo "... src/business_logic/services/ScheduleService.s"
+	@echo "... src/business_logic/services/ReportService.o"
+	@echo "... src/business_logic/services/ReportService.i"
+	@echo "... src/business_logic/services/ReportService.s"
+	@echo "... src/business_logic/services/SchedulingService.o"
+	@echo "... src/business_logic/services/SchedulingService.i"
+	@echo "... src/business_logic/services/SchedulingService.s"
 	@echo "... src/business_logic/services/UserService.o"
 	@echo "... src/business_logic/services/UserService.i"
 	@echo "... src/business_logic/services/UserService.s"

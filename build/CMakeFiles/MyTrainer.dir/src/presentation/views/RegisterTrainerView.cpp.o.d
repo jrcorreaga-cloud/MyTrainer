@@ -337,7 +337,7 @@ CMakeFiles/MyTrainer.dir/src/presentation/views/RegisterTrainerView.cpp.o: \
  /usr/include/qt6/QtWidgets/qabstractbutton.h \
  /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
  /usr/include/qt6/QtGui/qpicture.h /usr/include/qt6/QtCore/qiodevice.h \
- /mnt/datos/qt_proyects/MyTrainer/src/presentation/views/../../business_logic/services/IAdminService.h \
+ /mnt/datos/qt_proyects/MyTrainer/src/presentation/views/../../business_logic/services/IUserService.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtWidgets/QVBoxLayout \
  /usr/include/qt6/QtWidgets/qboxlayout.h \
  /usr/include/qt6/QtWidgets/qlayout.h \

@@ -2,8 +2,8 @@
 #include <QVBoxLayout>
 #include <QFormLayout>
 
-RegisterTrainerView::RegisterTrainerView(IAdminService* adminService, QWidget *parent)
-    : QWidget(parent), m_adminService(adminService) {
+RegisterTrainerView::RegisterTrainerView(IUserService* userService, QWidget *parent)
+    : QWidget(parent), m_userService(userService) {
     setupUi();
 }
 
@@ -48,7 +48,7 @@ void RegisterTrainerView::onRegisterClicked() {
     QString password = m_passwordInput->text();
     QString specialties = m_specialtiesInput->text();
 
-    if (m_adminService->registerTrainer(email, password, specialties)) {
+    if (m_userService->registerTrainer(email, password, specialties)) {
         m_statusLabel->setStyleSheet("color: green;");
         m_statusLabel->setText("Trainer registered successfully!");
         m_emailInput->clear();

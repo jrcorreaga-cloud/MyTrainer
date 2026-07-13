@@ -9,7 +9,7 @@
 #include <QLineEdit>
 #include <QPushButton>
 #include <QLabel>
-#include "../../business_logic/services/IAdminService.h"
+#include "../../business_logic/services/IUserService.h"
 
 /**
  * @class RegisterStudentView
@@ -23,7 +23,7 @@ public:
      * @brief Executes RegisterStudentView operation.
      * @return Result of the operation.
      */
-    explicit RegisterStudentView(IAdminService* adminService, QWidget *parent = nullptr);
+    explicit RegisterStudentView(IUserService* userService, QWidget *parent = nullptr);
 
 signals:
     /**
@@ -45,7 +45,7 @@ private slots:
     void onBackClicked();
 
 private:
-    IAdminService* m_adminService;
+    IUserService* m_userService;
     QLineEdit* m_emailInput;
     QLineEdit* m_passwordInput;
     QPushButton* m_registerButton;

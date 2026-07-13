@@ -355,10 +355,12 @@ CMakeFiles/MyTrainer.dir/src/main.cpp.o: \
  /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/IAuthService.h \
  /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/AdminService.h \
  /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/IAdminService.h \
+ /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/UserService.h \
+ /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/IUserService.h \
  /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/PlanService.h \
  /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/IPlanService.h \
- /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/ScheduleService.h \
- /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/IScheduleService.h \
+ /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/SchedulingService.h \
+ /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/ISchedulingService.h \
  /mnt/datos/qt_proyects/MyTrainer/src/presentation/views/LoginView.h \
  /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/QLineEdit \
  /usr/include/qt6/QtWidgets/qlineedit.h \

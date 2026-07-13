@@ -2,8 +2,8 @@
 #include <QVBoxLayout>
 #include <QFormLayout>
 
-RegisterStudentView::RegisterStudentView(IAdminService* adminService, QWidget *parent)
-    : QWidget(parent), m_adminService(adminService) {
+RegisterStudentView::RegisterStudentView(IUserService* userService, QWidget *parent)
+    : QWidget(parent), m_userService(userService) {
     setupUi();
 }
 
@@ -44,7 +44,7 @@ void RegisterStudentView::onRegisterClicked() {
     QString email = m_emailInput->text();
     QString password = m_passwordInput->text();
 
-    if (m_adminService->registerStudent(email, password)) {
+    if (m_userService->registerStudent(email, password)) {
         m_statusLabel->setStyleSheet("color: green;");
         m_statusLabel->setText("Student registered successfully!");
         m_emailInput->clear();

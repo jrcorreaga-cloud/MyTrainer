@@ -1,6 +1,6 @@
 /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_RegisterStudentView.cpp: /mnt/datos/qt_proyects/MyTrainer/src/presentation/views/RegisterStudentView.h \
   /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/moc_predefs.h \
-  /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/IAdminService.h \
+  /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/IUserService.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

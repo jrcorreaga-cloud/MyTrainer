@@ -351,7 +351,7 @@ CMakeFiles/MyTrainer.dir/src/presentation/views/ScheduleView.cpp.o: \
  /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
  /usr/include/qt6/QtGui/qpicture.h /usr/include/qt6/QtCore/qiodevice.h \
  /usr/include/qt6/QtGui/qtextdocument.h /usr/include/qt6/QtCore/qurl.h \
- /mnt/datos/qt_proyects/MyTrainer/src/presentation/views/../../business_logic/services/IScheduleService.h \
+ /mnt/datos/qt_proyects/MyTrainer/src/presentation/views/../../business_logic/services/ISchedulingService.h \
  /usr/include/qt6/QtCore/QString \
  /mnt/datos/qt_proyects/MyTrainer/src/presentation/views/../../business_logic/services/../../business_logic/models/ScheduleSlot.h \
  /usr/include/qt6/QtWidgets/QVBoxLayout \

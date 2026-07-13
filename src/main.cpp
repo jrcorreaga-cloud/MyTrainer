@@ -5,6 +5,7 @@
 #include "persistence/repositories/ScheduleRepository.h"
 #include "business_logic/services/AuthService.h"
 #include "business_logic/services/AdminService.h"
+#include "business_logic/services/UserService.h"
 #include "business_logic/services/PlanService.h"
 #include "business_logic/services/SchedulingService.h"
 #include "presentation/views/LoginView.h"
@@ -24,6 +25,7 @@ int main(int argc, char *argv[]) {
 
     AuthService authService(&userRepository);
     AdminService adminService(&userRepository);
+    UserService userService(&userRepository);
     PlanService planService(&planRepository);
     SchedulingService scheduleService(&scheduleRepository);
 
@@ -35,10 +37,10 @@ int main(int argc, char *argv[]) {
     LoginView* loginView = new LoginView(&authService);
     stackedWidget.addWidget(loginView);
 
-    RegisterTrainerView* registerTrainerView = new RegisterTrainerView(&adminService);
+    RegisterTrainerView* registerTrainerView = new RegisterTrainerView(&userService);
     stackedWidget.addWidget(registerTrainerView);
 
-    RegisterStudentView* registerStudentView = new RegisterStudentView(&adminService);
+    RegisterStudentView* registerStudentView = new RegisterStudentView(&userService);
     stackedWidget.addWidget(registerStudentView);
 
     CreatePlanView* createPlanView = new CreatePlanView(&planService);

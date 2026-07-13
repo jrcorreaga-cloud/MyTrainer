@@ -348,7 +348,7 @@ CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
  /usr/include/qt6/QtGui/qpicture.h /usr/include/qt6/QtCore/qiodevice.h \
  /usr/include/qt6/QtGui/qtextdocument.h /usr/include/qt6/QtCore/qurl.h \
- /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/services/IScheduleService.h \
+ /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/services/ISchedulingService.h \
  /usr/include/qt6/QtCore/QString \
  /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/services/../../business_logic/models/ScheduleSlot.h \
  /usr/include/qt6/QtGui/qtextcursor.h \
@@ -370,7 +370,7 @@ CMakeFiles/MyTrainer.dir/MyTrainer_autogen/mocs_compilation.cpp.o: \
  /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/services/IAuthService.h \
  /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_RegisterStudentView.cpp \
  /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/RegisterStudentView.h \
- /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/services/IAdminService.h \
+ /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/../../business_logic/services/IUserService.h \
  /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_RegisterTrainerView.cpp \
  /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/../../../src/presentation/views/RegisterTrainerView.h \
  /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_ScheduleView.cpp \

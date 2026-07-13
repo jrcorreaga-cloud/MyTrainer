@@ -4,6 +4,7 @@
 #include "../../src/persistence/repositories/ScheduleRepository.h"
 #include "../../src/business_logic/services/AuthService.h"
 #include "../../src/business_logic/services/AdminService.h"
+#include "../../src/business_logic/services/UserService.h"
 #include "../../src/business_logic/services/SchedulingService.h"
 
 #define ASSERT_TRUE(condition, msg) \
@@ -51,13 +52,14 @@ bool FuncionalTests::testAdminRegistrationFlow() {
     UserRepository userRepo;
     AuthService authService(&userRepo);
     AdminService adminService(&userRepo);
+    UserService userService(&userRepo);
 
     // 1. Login as admin
     auto adminOpt = authService.login("admin@mytrainer.com", "admin123");
     ASSERT_TRUE(adminOpt.has_value() && adminOpt.value().getRole() == Role::Admin, "Admin login successful");
 
     // 2. Admin registers a new student
-    bool regSuccess = adminService.registerStudent("newstudent@mytrainer.com", "pass123");
+    bool regSuccess = userService.registerStudent("newstudent@mytrainer.com", "pass123");
     ASSERT_TRUE(regSuccess, "Admin registers new student successfully");
 
     // 3. New student can login

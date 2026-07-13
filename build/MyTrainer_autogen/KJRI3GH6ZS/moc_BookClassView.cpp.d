@@ -1,7 +1,7 @@
 /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/KJRI3GH6ZS/moc_BookClassView.cpp: /mnt/datos/qt_proyects/MyTrainer/src/presentation/views/BookClassView.h \
   /mnt/datos/qt_proyects/MyTrainer/build/MyTrainer_autogen/moc_predefs.h \
   /mnt/datos/qt_proyects/MyTrainer/src/business_logic/models/ScheduleSlot.h \
-  /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/IScheduleService.h \
+  /mnt/datos/qt_proyects/MyTrainer/src/business_logic/services/ISchedulingService.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
