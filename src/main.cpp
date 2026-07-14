@@ -8,12 +8,14 @@
 #include "business_logic/services/UserService.h"
 #include "business_logic/services/PlanService.h"
 #include "business_logic/services/SchedulingService.h"
+#include "business_logic/services/ReportService.h"
 #include "presentation/views/LoginView.h"
 #include "presentation/views/DashboardView.h"
 #include "presentation/views/RegisterTrainerView.h"
 #include "presentation/views/RegisterStudentView.h"
 #include "presentation/views/CreatePlanView.h"
 #include "presentation/views/ScheduleView.h"
+#include "presentation/views/ReportView.h"
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
@@ -28,6 +30,7 @@ int main(int argc, char *argv[]) {
     UserService userService(&userRepository);
     PlanService planService(&planRepository);
     SchedulingService scheduleService(&scheduleRepository);
+    ReportService reportService(&scheduleRepository, &userRepository, &planRepository);
 
     // UI Routing Setup
     QStackedWidget stackedWidget;
@@ -48,6 +51,9 @@ int main(int argc, char *argv[]) {
 
     ScheduleView* scheduleView = new ScheduleView(&scheduleService);
     stackedWidget.addWidget(scheduleView);
+
+    ReportView* reportView = new ReportView(&reportService);
+    stackedWidget.addWidget(reportView);
 
     QObject::connect(loginView, &LoginView::loginSuccessful, [&](const User& user) {
         DashboardView* dashboardView = new DashboardView(user);
@@ -70,6 +76,11 @@ int main(int argc, char *argv[]) {
             stackedWidget.setCurrentWidget(scheduleView);
         });
 
+        QObject::connect(dashboardView, &DashboardView::viewKPIsRequested, [&]() {
+            reportView->refreshReport(); // Refresh report data before showing
+            stackedWidget.setCurrentWidget(reportView);
+        });
+
         stackedWidget.setCurrentWidget(dashboardView);
     });
 
@@ -86,6 +97,7 @@ int main(int argc, char *argv[]) {
     QObject::connect(registerStudentView, &RegisterStudentView::backRequested, goBackToDashboard);
     QObject::connect(createPlanView, &CreatePlanView::backRequested, goBackToDashboard);
     QObject::connect(scheduleView, &ScheduleView::backRequested, goBackToDashboard);
+    QObject::connect(reportView, &ReportView::backRequested, goBackToDashboard);
 
     stackedWidget.show();
     return app.exec();

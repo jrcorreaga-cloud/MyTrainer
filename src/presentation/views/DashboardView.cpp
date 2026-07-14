@@ -24,14 +24,17 @@ void DashboardView::setupUi(const User& user) {
         QPushButton* registerTrainerBtn = new QPushButton("Register Personal Trainer", this);
         QPushButton* registerStudentBtn = new QPushButton("Register Student", this);
         QPushButton* createPlanBtn = new QPushButton("Create Fitness Plan", this);
+        QPushButton* viewKPIsBtn = new QPushButton("View KPI Reports", this);
         
         layout->addWidget(registerTrainerBtn);
         layout->addWidget(registerStudentBtn);
         layout->addWidget(createPlanBtn);
+        layout->addWidget(viewKPIsBtn);
         
         connect(registerTrainerBtn, &QPushButton::clicked, this, &DashboardView::onRegisterTrainerClicked);
         connect(registerStudentBtn, &QPushButton::clicked, this, &DashboardView::onRegisterStudentClicked);
         connect(createPlanBtn, &QPushButton::clicked, this, &DashboardView::onCreatePlanClicked);
+        connect(viewKPIsBtn, &QPushButton::clicked, this, &DashboardView::onViewKPIsClicked);
 
     } else if (user.getRole() == Role::Trainer) {
         QLabel* trainerPanel = new QLabel("--- Trainer Dashboard ---\nManage your schedule here.", this);
@@ -89,6 +92,10 @@ void DashboardView::onBookClassClicked() {
 
 void DashboardView::onLogoutClicked() {
     emit logoutRequested();
+}
+
+void DashboardView::onViewKPIsClicked() {
+    emit viewKPIsRequested();
 }
 
 QString DashboardView::getRoleName(Role role) const {

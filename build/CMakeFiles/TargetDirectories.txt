@@ -1,14 +1,14 @@
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/CoreLib.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/MyTrainer.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/unit_tests.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/funcional_tests.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/edit_cache.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/rebuild_cache.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/CoreLib_autogen_timestamp_deps.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/CoreLib_autogen.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/MyTrainer_autogen_timestamp_deps.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/MyTrainer_autogen.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/unit_tests_autogen_timestamp_deps.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/unit_tests_autogen.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/funcional_tests_autogen_timestamp_deps.dir
-/mnt/datos/qt_proyects/MyTrainer/build/CMakeFiles/funcional_tests_autogen.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/CoreLib.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/MyTrainer.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/unit_tests.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/funcional_tests.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/edit_cache.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/CoreLib_autogen_timestamp_deps.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/CoreLib_autogen.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/MyTrainer_autogen_timestamp_deps.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/MyTrainer_autogen.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/unit_tests_autogen_timestamp_deps.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/unit_tests_autogen.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/funcional_tests_autogen_timestamp_deps.dir
+C:/Users/Tommy/OneDrive/Documentos/UFOP/ING SOFTWARE 1/Sprint 1 fornete/MyTrainer/build/CMakeFiles/funcional_tests_autogen.dir

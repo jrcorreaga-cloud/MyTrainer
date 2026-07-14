@@ -5,4 +5,5 @@
 #include "KJRI3GH6ZS/moc_LoginView.cpp"
 #include "KJRI3GH6ZS/moc_RegisterStudentView.cpp"
 #include "KJRI3GH6ZS/moc_RegisterTrainerView.cpp"
+#include "KJRI3GH6ZS/moc_ReportView.cpp"
 #include "KJRI3GH6ZS/moc_ScheduleView.cpp"

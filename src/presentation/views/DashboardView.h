@@ -55,6 +55,11 @@ signals:
      * @return Result of the operation.
      */
     void logoutRequested();
+    /**
+     * @brief Executes viewKPIsRequested operation.
+     * @return Result of the operation.
+     */
+    void viewKPIsRequested();
 
 private slots:
     /**
@@ -87,6 +92,11 @@ private slots:
      * @return Result of the operation.
      */
     void onLogoutClicked();
+    /**
+     * @brief Executes onViewKPIsClicked operation.
+     * @return Result of the operation.
+     */
+    void onViewKPIsClicked();
 
 private:
     /**

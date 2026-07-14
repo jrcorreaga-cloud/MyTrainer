@@ -47,12 +47,14 @@ template <> constexpr inline auto DashboardView::qt_create_metaobjectdata<qt_met
         "viewScheduleRequested",
         "bookClassRequested",
         "logoutRequested",
+        "viewKPIsRequested",
         "onRegisterTrainerClicked",
         "onRegisterStudentClicked",
         "onCreatePlanClicked",
         "onViewScheduleClicked",
         "onBookClassClicked",
-        "onLogoutClicked"
+        "onLogoutClicked",
+        "onViewKPIsClicked"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -68,18 +70,22 @@ template <> constexpr inline auto DashboardView::qt_create_metaobjectdata<qt_met
         QtMocHelpers::SignalData<void()>(6, 2, QMC::AccessPublic, QMetaType::Void),
         // Signal 'logoutRequested'
         QtMocHelpers::SignalData<void()>(7, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'viewKPIsRequested'
+        QtMocHelpers::SignalData<void()>(8, 2, QMC::AccessPublic, QMetaType::Void),
         // Slot 'onRegisterTrainerClicked'
-        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onRegisterStudentClicked'
         QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onCreatePlanClicked'
+        // Slot 'onRegisterStudentClicked'
         QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onViewScheduleClicked'
+        // Slot 'onCreatePlanClicked'
         QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onBookClassClicked'
+        // Slot 'onViewScheduleClicked'
         QtMocHelpers::SlotData<void()>(12, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onLogoutClicked'
+        // Slot 'onBookClassClicked'
         QtMocHelpers::SlotData<void()>(13, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onLogoutClicked'
+        QtMocHelpers::SlotData<void()>(14, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onViewKPIsClicked'
+        QtMocHelpers::SlotData<void()>(15, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -109,12 +115,14 @@ void DashboardView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 3: _t->viewScheduleRequested(); break;
         case 4: _t->bookClassRequested(); break;
         case 5: _t->logoutRequested(); break;
-        case 6: _t->onRegisterTrainerClicked(); break;
-        case 7: _t->onRegisterStudentClicked(); break;
-        case 8: _t->onCreatePlanClicked(); break;
-        case 9: _t->onViewScheduleClicked(); break;
-        case 10: _t->onBookClassClicked(); break;
-        case 11: _t->onLogoutClicked(); break;
+        case 6: _t->viewKPIsRequested(); break;
+        case 7: _t->onRegisterTrainerClicked(); break;
+        case 8: _t->onRegisterStudentClicked(); break;
+        case 9: _t->onCreatePlanClicked(); break;
+        case 10: _t->onViewScheduleClicked(); break;
+        case 11: _t->onBookClassClicked(); break;
+        case 12: _t->onLogoutClicked(); break;
+        case 13: _t->onViewKPIsClicked(); break;
         default: ;
         }
     }
@@ -130,6 +138,8 @@ void DashboardView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         if (QtMocHelpers::indexOfMethod<void (DashboardView::*)()>(_a, &DashboardView::bookClassRequested, 4))
             return;
         if (QtMocHelpers::indexOfMethod<void (DashboardView::*)()>(_a, &DashboardView::logoutRequested, 5))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (DashboardView::*)()>(_a, &DashboardView::viewKPIsRequested, 6))
             return;
     }
 }
@@ -153,14 +163,14 @@ int DashboardView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 12)
+        if (_id < 14)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 12;
+        _id -= 14;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 12)
+        if (_id < 14)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 12;
+        _id -= 14;
     }
     return _id;
 }
@@ -199,5 +209,11 @@ void DashboardView::bookClassRequested()
 void DashboardView::logoutRequested()
 {
     QMetaObject::activate(this, &staticMetaObject, 5, nullptr);
+}
+
+// SIGNAL 6
+void DashboardView::viewKPIsRequested()
+{
+    QMetaObject::activate(this, &staticMetaObject, 6, nullptr);
 }
 QT_WARNING_POP
