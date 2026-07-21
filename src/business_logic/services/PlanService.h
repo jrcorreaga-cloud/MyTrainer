@@ -6,6 +6,8 @@
 #pragma once
 #include "IPlanService.h"
 #include "../../persistence/repositories/IPlanRepository.h"
+#include "../models/subscription/Subscription.h"
+#include <vector>
 
 /**
  * @class PlanService
@@ -24,6 +26,27 @@ public:
      */
     bool createPlan(const QString& name, double price, int durationMonths) override;
 
+    /**
+     * @brief Subscribes a user to a plan
+     */
+    void subscribeUser(int userId, int planId);
+
+    /**
+     * @brief Suspends a user's subscription
+     */
+    bool suspendSubscription(int userId);
+
+    /**
+     * @brief Cancels a user's subscription
+     */
+    bool cancelSubscription(int userId);
+
+    /**
+     * @brief Gets the status of a user's subscription
+     */
+    QString getSubscriptionStatus(int userId) const;
+
 private:
     IPlanRepository* m_planRepository;
+    std::vector<std::shared_ptr<Subscription>> m_subscriptions;
 };
