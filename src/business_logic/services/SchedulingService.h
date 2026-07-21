@@ -6,6 +6,7 @@
 #pragma once
 #include "ISchedulingService.h"
 #include "../../persistence/repositories/IScheduleRepository.h"
+#include "notifications/ISubject.h"
 
 /**
  * @class SchedulingService
@@ -17,7 +18,7 @@ public:
      * @brief Executes SchedulingService operation.
      * @return Result of the operation.
      */
-    explicit SchedulingService(IScheduleRepository* scheduleRepository);
+    explicit SchedulingService(IScheduleRepository* scheduleRepository, ISubject* notifier = nullptr);
     /**
      * @brief Executes getFormattedSchedule operation.
      * @return Result of the operation.
@@ -36,4 +37,5 @@ public:
 
 private:
     IScheduleRepository* m_scheduleRepository;
+    ISubject* m_notifier;
 };

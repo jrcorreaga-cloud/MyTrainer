@@ -1,8 +1,9 @@
 #include "SchedulingService.h"
 #include "../models/ScheduleSlot.h"
+#include <iostream>
 
-SchedulingService::SchedulingService(IScheduleRepository* scheduleRepository) 
-    : m_scheduleRepository(scheduleRepository) {}
+SchedulingService::SchedulingService(IScheduleRepository* scheduleRepository, ISubject* notifier) 
+    : m_scheduleRepository(scheduleRepository), m_notifier(notifier) {}
 
 std::vector<QString> SchedulingService::getFormattedSchedule() {
     std::vector<QString> formatted;
@@ -27,5 +28,9 @@ std::vector<ScheduleSlot> SchedulingService::getAvailableSlots() {
 
 bool SchedulingService::bookClass(int slotId, int studentId) {
     if (slotId <= 0 || studentId <= 0) return false;
-    return m_scheduleRepository->updateSlotBooking(slotId, studentId);
+    bool success = m_scheduleRepository->updateSlotBooking(slotId, studentId);
+    if (success && m_notifier) {
+        m_notifier->notify("Your class has been successfully booked!", "student@mytrainer.com");
+    }
+    return success;
 }
